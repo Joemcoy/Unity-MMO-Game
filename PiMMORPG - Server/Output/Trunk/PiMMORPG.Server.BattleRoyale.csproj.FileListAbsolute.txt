@@ -1,0 +1,11 @@
+G:\Projetos\PiMMORPG - Server\Output\Debug\PiMMORPG.Server.BattleRoyale.dll
+G:\Projetos\PiMMORPG - Server\Output\Debug\PiMMORPG.Server.BattleRoyale.pdb
+G:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.BattleRoyale.csprojResolveAssemblyReference.cache
+G:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.BattleRoyale.dll
+G:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.BattleRoyale.pdb
+E:\Projetos\PiMMORPG - Server\Output\Debug\PiMMORPG.Server.BattleRoyale.dll
+E:\Projetos\PiMMORPG - Server\Output\Debug\PiMMORPG.Server.BattleRoyale.pdb
+E:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.BattleRoyale.csprojResolveAssemblyReference.cache
+E:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.BattleRoyale.csproj.CoreCompileInputs.cache
+E:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.BattleRoyale.dll
+E:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.BattleRoyale.pdb

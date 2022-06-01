@@ -1,0 +1,5 @@
+G:\Projetos\PiMMORPG - Server\Output\Debug\PiMMORPG.Server.ChecksumMaker.exe
+G:\Projetos\PiMMORPG - Server\Output\Debug\PiMMORPG.Server.ChecksumMaker.pdb
+G:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.ChecksumMaker.csprojResolveAssemblyReference.cache
+G:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.ChecksumMaker.exe
+G:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.ChecksumMaker.pdb

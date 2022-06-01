@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <IntermediateOutputPath>..\Output\Trunk\</IntermediateOutputPath>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4EA70EA3-4DC7-45BE-BD15-A374652FA7A5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PiMMORPG.Server.ChecksumMaker</RootNamespace>
+    <AssemblyName>PiMMORPG.Server.ChecksumMaker</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Output\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Output\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PiMMORPG.Client\PiMMORPG.Client.csproj">
+      <Project>{38C7B170-145B-4977-B062-3EE03E970D4B}</Project>
+      <Name>PiMMORPG.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PiMMORPG.Server.General\PiMMORPG.Server.General.csproj">
+      <Project>{be9ad44f-597d-4222-a72c-89bd6d0bb043}</Project>
+      <Name>PiMMORPG.Server.General</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PiMMORPG\PiMMORPG.csproj">
+      <Project>{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}</Project>
+      <Name>PiMMORPG</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\tFramework.DataDriver.MySQL\tFramework.DataDriver.MySQL.csproj">
+      <Project>{9247B22D-B746-4188-BF3A-FFEE444072C9}</Project>
+      <Name>tFramework.DataDriver.MySQL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\tFramework.DataDriver\tFramework.DataDriver.csproj">
+      <Project>{8BD9F473-7CE5-49FC-BAE5-D7356B1A6197}</Project>
+      <Name>tFramework.DataDriver</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\tFramework.Data\tFramework.Data.csproj">
+      <Project>{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}</Project>
+      <Name>tFramework.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\tFramework.Network\tFramework.Network.csproj">
+      <Project>{E3BADA74-9013-4D1E-9794-4D13AE074F58}</Project>
+      <Name>tFramework.Network</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\tFramework\tFramework.csproj">
+      <Project>{0984D5E7-6B48-4032-AFD5-1B90291717F5}</Project>
+      <Name>tFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

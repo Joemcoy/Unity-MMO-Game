@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\auth.server\dataresponses\launcherfilespacket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\data.server\responses\launcherfilespacket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\network\v1\clientsocket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\auth.server\authserver.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\data.client\dataclient.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\data.server\dataserver.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\network\v1\clientreadqueue.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\server.configuration\abstractpacketconfiguration.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\server.configuration\databaseconfiguration.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\server.configuration\gameconfiguration.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\server.configuration\gatesconfiguration.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\server.configuration\intervalsconfiguration.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\auth.client\authclient.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\chat.client\chatclient.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\game.client\gameclient.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\gate.client\gateclient.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\auth.server\responses\loginpacket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\auth.server\dataresponses\loginpacket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\gate.server\responses\gatetypepacket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\gate.server\gateserver.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\network\v1\clientping.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\network\data\socketconstants.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\auth.server\requests\loginresultrequest.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\network\data\interfaces\iclientsocket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\auth.server\app.config</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\network\v1\clientwritequeue.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\network\v1\serversocket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\base\factories\tasks\updatertask.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\base\factories\tasks\threadtask.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\base\factories\updaterfactory.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\game.data\models\launcherfilemodel.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\game.server\gameserver.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\game.server\responses\pingpacket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Manager\WorldManager.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\game.server\dataresponses\sendcharacterspacket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\game.server\dataresponses\sendaccountbyidpacket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\projetos\c#\multiplayer game project - server\game.server\responses\createcharacterpacket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Game.Service</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Responses\PlayerMovePacket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Responses\MovePlayerPacket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Writers\PlayerMoveWriter.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Writers\ToggleCombatWriter.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Writers\ToggleChattingWriter.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\ClientSender.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Writers\AttackEndWriter.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Writers\AttackStartWriter.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Writers\PlayerMovementWriter.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Writers\RevivePlayerWriter.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Writers\SetWeaponWriter.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Writers\ShieldEndWriter.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Writers\ShieldStartWriter.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Responses\AttackEndPacket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Responses\AttackStartPacket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Responses\ShieldStartPacket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Responses\ToggleChattingPacket.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Service\frmCommand.cs</string>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Service\frmCommand.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Projetos\C#\Multiplayer Game Project - Server\Game.Server\Writers\RemovePlayerWriter.cs</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>

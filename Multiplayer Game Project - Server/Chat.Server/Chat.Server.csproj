@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <IntermediateOutputPath>..\Output\Trunk\</IntermediateOutputPath>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D3D7C802-51B3-41AE-B499-6C189B454967}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Chat.Server</RootNamespace>
+    <AssemblyName>Chat.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Output\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Output\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChatResponses\SendAccountPacket.cs" />
+    <Compile Include="ChatResponses\SendMessagePacket.cs" />
+    <Compile Include="DataResponses\SendAccountByIDPacket.cs" />
+    <Compile Include="DataResponses\SendMessagesPacket.cs" />
+    <Compile Include="GateResponses\AuthPacket.cs" />
+    <Compile Include="GateResponses\ServerMessagePacket.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ChatServer.cs" />
+    <Compile Include="Writers\MessageRequest.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Base\Base.csproj">
+      <Project>{7B5EE514-2FF3-468B-8CF6-47B8F28EFF07}</Project>
+      <Name>Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data.Client\Data.Client.csproj">
+      <Project>{D504F25C-17F6-42F9-A146-5FDD8D96941B}</Project>
+      <Name>Data.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Game.Data\Game.Data.csproj">
+      <Project>{A35412CF-25E9-4F25-9B22-15B0ADC425C7}</Project>
+      <Name>Game.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Chat.Client\Chat.Client.csproj">
+      <Project>{F05010A0-7000-4FEC-A059-3893A0DBDD1D}</Project>
+      <Name>Chat.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gate.Client\Gate.Client.csproj">
+      <Project>{6089F504-E259-465C-A2AC-28A92FD85251}</Project>
+      <Name>Gate.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gate.Server\Gate.Server.csproj">
+      <Project>{233046AC-EA6F-4BF2-814C-D06D31E125A6}</Project>
+      <Name>Gate.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Server.Configuration\Server.Configuration.csproj">
+      <Project>{3CDD8B3D-E935-43C8-ABC0-CD493F1AB458}</Project>
+      <Name>Server.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Server.Data\Server.Data.csproj">
+      <Project>{DD755903-A09A-492B-988B-D816B2518C57}</Project>
+      <Name>Server.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Network\Network.csproj">
+      <Project>{87D6EC6F-0FF4-4DC1-8D5A-C76165D3D9E7}</Project>
+      <Name>Network</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+</Project>

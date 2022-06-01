@@ -1,0 +1,13 @@
+G:\Projetos\PiMMORPG - Server\Output\Debug\PiMMORPG.Server.Auth.dll.config
+G:\Projetos\PiMMORPG - Server\Output\Debug\PiMMORPG.Server.Auth.dll
+G:\Projetos\PiMMORPG - Server\Output\Debug\PiMMORPG.Server.Auth.pdb
+G:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.Auth.csprojResolveAssemblyReference.cache
+G:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.Auth.dll
+G:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.Auth.pdb
+E:\Projetos\PiMMORPG - Server\Output\Debug\PiMMORPG.Server.Auth.dll.config
+E:\Projetos\PiMMORPG - Server\Output\Debug\PiMMORPG.Server.Auth.dll
+E:\Projetos\PiMMORPG - Server\Output\Debug\PiMMORPG.Server.Auth.pdb
+E:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.Auth.csprojResolveAssemblyReference.cache
+E:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.Auth.csproj.CoreCompileInputs.cache
+E:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.Auth.dll
+E:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.Server.Auth.pdb

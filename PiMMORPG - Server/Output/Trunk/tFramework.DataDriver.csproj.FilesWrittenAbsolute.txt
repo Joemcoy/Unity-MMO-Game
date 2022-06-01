@@ -1,0 +1,5 @@
+/media/oliveira-brito-gabriel/Dados e Projetos/Projetos/PiMMORPG - Server/Output/Trunk/.NETFramework,Version=v4.5.1.AssemblyAttribute.cs
+/media/oliveira-brito-gabriel/Dados e Projetos/Projetos/PiMMORPG - Server/Output/Debug/tFramework.DataDriver.dll.mdb
+/media/oliveira-brito-gabriel/Dados e Projetos/Projetos/PiMMORPG - Server/Output/Debug/tFramework.DataDriver.dll
+/media/oliveira-brito-gabriel/Dados e Projetos/Projetos/PiMMORPG - Server/Output/Trunk/tFramework.DataDriver.dll
+/media/oliveira-brito-gabriel/Dados e Projetos/Projetos/PiMMORPG - Server/Output/Trunk/tFramework.DataDriver.dll.mdb

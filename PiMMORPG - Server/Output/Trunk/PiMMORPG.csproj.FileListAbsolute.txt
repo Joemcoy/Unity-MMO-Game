@@ -1,0 +1,11 @@
+G:\Projetos\PiMMORPG - Server\Output\Debug\PiMMORPG.dll
+G:\Projetos\PiMMORPG - Server\Output\Debug\PiMMORPG.pdb
+G:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.csprojResolveAssemblyReference.cache
+G:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.dll
+G:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.pdb
+E:\Projetos\PiMMORPG - Server\Output\Debug\PiMMORPG.dll
+E:\Projetos\PiMMORPG - Server\Output\Debug\PiMMORPG.pdb
+E:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.csprojResolveAssemblyReference.cache
+E:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.csproj.CoreCompileInputs.cache
+E:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.dll
+E:\Projetos\PiMMORPG - Server\Output\Trunk\PiMMORPG.pdb

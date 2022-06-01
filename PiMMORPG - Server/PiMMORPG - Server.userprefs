@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{A60E21C4-3731-4E79-A376-F39E027ED96F}|Default">
+  <MonoDevelop.Ide.ItemProperties.PiMMORPG.WebServer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PiMMORPG.Server.ChecksumMaker PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="PiMMORPG.WebServer\Bases\BaseDatabase.cs">
+    <Files>
+      <File FileName="PiMMORPG.WebServer\WebServer.cs" Line="55" Column="1" />
+      <File FileName="PiMMORPG\Models\Channel.cs" Line="17" Column="38" />
+      <File FileName="PiMMORPG.Server.General\Drivers\ChannelDriver.cs" Line="24" Column="30" />
+      <File FileName="tFramework.DataDriver\QueryBuilder.cs" Line="136" Column="14" />
+      <File FileName="PiMMORPG.WebServer\Modules\API\ChannelsModule.cs" Line="104" Column="13" />
+      <File FileName="PiMMORPG.WebServer\Bootstraper.cs" Line="147" Column="23" />
+      <File FileName="tFramework\Factories\ComponentFactory.cs" Line="115" Column="28" />
+      <File FileName="PiMMORPG.Server.General\ServerControl.cs" Line="140" Column="35" />
+      <File FileName="PiMMORPG.WebServer\Bases\BaseDatabase.cs" Line="57" Column="9" />
+      <File FileName="PiMMORPG.WebServer\APIDatabase.cs" Line="21" Column="31" />
+      <File FileName="PiMMORPG.WebServer\AuthenticatedAPI.cs" Line="13" Column="50" />
+      <File FileName="PiMMORPG.WebServer\UserDatabase.cs" Line="18" Column="34" />
+      <File FileName="PiMMORPG\Models\Account.cs" Line="1" Column="1" />
+      <File FileName="PiMMORPG.WebServer\Modules\API\AuthModule.cs" Line="47" Column="58" />
+      <File FileName="PiMMORPG.WebServer\Modules\API\SecureAPIModule.cs" Line="17" Column="31" />
+      <File FileName="PiMMORPG.WebServer\AuthenticatedUser.cs" Line="1" Column="1" />
+      <File FileName="PiMMORPG.WebServer\Program.cs" Line="97" Column="14" />
+      <File FileName="PiMMORPG.WebServer\Modules\SecureModule.cs" Line="20" Column="16" />
+      <File FileName="PiMMORPG.WebServer\Modules\API\APIModule.cs" Line="1" Column="1" />
+      <File FileName="PiMMORPG.WebServer\Modules\API\LoginModule.cs" Line="15" Column="18" />
+      <File FileName="PiMMORPG.Server.General\Drivers\APIAccessDriver.cs" Line="19" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>PiMMORPG.Interface.Windows\PiMMORPG.Interface.Windows.csproj</String>
+  </DisabledProjects>
+</Properties>

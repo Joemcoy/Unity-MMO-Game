@@ -1,0 +1,191 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tFramework", "tFramework\tFramework.csproj", "{0984D5E7-6B48-4032-AFD5-1B90291717F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tFramework.Data", "tFramework.Data\tFramework.Data.csproj", "{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tFramework.DataDriver", "tFramework.DataDriver\tFramework.DataDriver.csproj", "{8BD9F473-7CE5-49FC-BAE5-D7356B1A6197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tFramework.DataDriver.MySQL", "tFramework.DataDriver.MySQL\tFramework.DataDriver.MySQL.csproj", "{9247B22D-B746-4188-BF3A-FFEE444072C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tFramework.Network", "tFramework.Network\tFramework.Network.csproj", "{E3BADA74-9013-4D1E-9794-4D13AE074F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiMMORPG.Server", "PiMMORPG.Server\PiMMORPG.Server.csproj", "{1CB026A8-2B10-442C-BE08-8C01D824B84D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiMMORPG.Client", "PiMMORPG.Client\PiMMORPG.Client.csproj", "{38C7B170-145B-4977-B062-3EE03E970D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiMMORPG", "PiMMORPG\PiMMORPG.csproj", "{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiMMORPG.Server.ChecksumMaker", "PiMMORPG.Server.ChecksumMaker\PiMMORPG.Server.ChecksumMaker.csproj", "{4EA70EA3-4DC7-45BE-BD15-A374652FA7A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiMMORPG.WebServer", "PiMMORPG.WebServer\PiMMORPG.WebServer.csproj", "{A60E21C4-3731-4E79-A376-F39E027ED96F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiMMORPG.Server.RPG", "PiMMORPG.Server.RPG\PiMMORPG.Server.RPG.csproj", "{8C1B5D8B-DF3C-496E-BE3A-F0C913A7084F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiMMORPG.Server.BattleRoyale", "PiMMORPG.Server.BattleRoyale\PiMMORPG.Server.BattleRoyale.csproj", "{41436106-1208-4D75-AAC4-C7A2CF74C979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiMMORPG.Client.Auth", "PiMMORPG.Client.Auth\PiMMORPG.Client.Auth.csproj", "{23DD4230-3DDE-448E-9360-10DECCB90762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiMMORPG.Server.Auth", "PiMMORPG.Server.Auth\PiMMORPG.Server.Auth.csproj", "{81312CDD-1756-4C99-B9CD-A17E1130549A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiMMORPG.Client.BattleRoyale", "PiMMORPG.Client.BattleRoyale\PiMMORPG.Client.BattleRoyale.csproj", "{BA0C4A3E-AC5E-4535-A399-66143ED2FD5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiMMORPG.Client.RPG", "PiMMORPG.Client.RPG\PiMMORPG.Client.RPG.csproj", "{BA8469FB-83B5-4E1B-AA1E-9DC87BF5F492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiMMORPG.Server.General", "PiMMORPG.Server.General\PiMMORPG.Server.General.csproj", "{BE9AD44F-597D-4222-A72C-89BD6D0BB043}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Arduino|Any CPU = Debug Arduino|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release Arduino|Any CPU = Release Arduino|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0984D5E7-6B48-4032-AFD5-1B90291717F5}.Debug Arduino|Any CPU.ActiveCfg = Debug Arduino|Any CPU
+		{0984D5E7-6B48-4032-AFD5-1B90291717F5}.Debug Arduino|Any CPU.Build.0 = Debug Arduino|Any CPU
+		{0984D5E7-6B48-4032-AFD5-1B90291717F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0984D5E7-6B48-4032-AFD5-1B90291717F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0984D5E7-6B48-4032-AFD5-1B90291717F5}.Release Arduino|Any CPU.ActiveCfg = Release Arduino|Any CPU
+		{0984D5E7-6B48-4032-AFD5-1B90291717F5}.Release Arduino|Any CPU.Build.0 = Release Arduino|Any CPU
+		{0984D5E7-6B48-4032-AFD5-1B90291717F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0984D5E7-6B48-4032-AFD5-1B90291717F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}.Debug Arduino|Any CPU.ActiveCfg = Debug Arduino|Any CPU
+		{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}.Debug Arduino|Any CPU.Build.0 = Debug Arduino|Any CPU
+		{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}.Release Arduino|Any CPU.ActiveCfg = Release Arduino|Any CPU
+		{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}.Release Arduino|Any CPU.Build.0 = Release Arduino|Any CPU
+		{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD9F473-7CE5-49FC-BAE5-D7356B1A6197}.Debug Arduino|Any CPU.ActiveCfg = Debug Arduino|Any CPU
+		{8BD9F473-7CE5-49FC-BAE5-D7356B1A6197}.Debug Arduino|Any CPU.Build.0 = Debug Arduino|Any CPU
+		{8BD9F473-7CE5-49FC-BAE5-D7356B1A6197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD9F473-7CE5-49FC-BAE5-D7356B1A6197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD9F473-7CE5-49FC-BAE5-D7356B1A6197}.Release Arduino|Any CPU.ActiveCfg = Release Arduino|Any CPU
+		{8BD9F473-7CE5-49FC-BAE5-D7356B1A6197}.Release Arduino|Any CPU.Build.0 = Release Arduino|Any CPU
+		{8BD9F473-7CE5-49FC-BAE5-D7356B1A6197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD9F473-7CE5-49FC-BAE5-D7356B1A6197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9247B22D-B746-4188-BF3A-FFEE444072C9}.Debug Arduino|Any CPU.ActiveCfg = Debug Arduino|Any CPU
+		{9247B22D-B746-4188-BF3A-FFEE444072C9}.Debug Arduino|Any CPU.Build.0 = Debug Arduino|Any CPU
+		{9247B22D-B746-4188-BF3A-FFEE444072C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9247B22D-B746-4188-BF3A-FFEE444072C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9247B22D-B746-4188-BF3A-FFEE444072C9}.Release Arduino|Any CPU.ActiveCfg = Release Arduino|Any CPU
+		{9247B22D-B746-4188-BF3A-FFEE444072C9}.Release Arduino|Any CPU.Build.0 = Release Arduino|Any CPU
+		{9247B22D-B746-4188-BF3A-FFEE444072C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9247B22D-B746-4188-BF3A-FFEE444072C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3BADA74-9013-4D1E-9794-4D13AE074F58}.Debug Arduino|Any CPU.ActiveCfg = Debug Arduino|Any CPU
+		{E3BADA74-9013-4D1E-9794-4D13AE074F58}.Debug Arduino|Any CPU.Build.0 = Debug Arduino|Any CPU
+		{E3BADA74-9013-4D1E-9794-4D13AE074F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3BADA74-9013-4D1E-9794-4D13AE074F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3BADA74-9013-4D1E-9794-4D13AE074F58}.Release Arduino|Any CPU.ActiveCfg = Release Arduino|Any CPU
+		{E3BADA74-9013-4D1E-9794-4D13AE074F58}.Release Arduino|Any CPU.Build.0 = Release Arduino|Any CPU
+		{E3BADA74-9013-4D1E-9794-4D13AE074F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3BADA74-9013-4D1E-9794-4D13AE074F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB026A8-2B10-442C-BE08-8C01D824B84D}.Debug Arduino|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB026A8-2B10-442C-BE08-8C01D824B84D}.Debug Arduino|Any CPU.Build.0 = Debug|Any CPU
+		{1CB026A8-2B10-442C-BE08-8C01D824B84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB026A8-2B10-442C-BE08-8C01D824B84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB026A8-2B10-442C-BE08-8C01D824B84D}.Release Arduino|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB026A8-2B10-442C-BE08-8C01D824B84D}.Release Arduino|Any CPU.Build.0 = Release|Any CPU
+		{1CB026A8-2B10-442C-BE08-8C01D824B84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB026A8-2B10-442C-BE08-8C01D824B84D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C7B170-145B-4977-B062-3EE03E970D4B}.Debug Arduino|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C7B170-145B-4977-B062-3EE03E970D4B}.Debug Arduino|Any CPU.Build.0 = Debug|Any CPU
+		{38C7B170-145B-4977-B062-3EE03E970D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C7B170-145B-4977-B062-3EE03E970D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C7B170-145B-4977-B062-3EE03E970D4B}.Release Arduino|Any CPU.ActiveCfg = Release|Any CPU
+		{38C7B170-145B-4977-B062-3EE03E970D4B}.Release Arduino|Any CPU.Build.0 = Release|Any CPU
+		{38C7B170-145B-4977-B062-3EE03E970D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C7B170-145B-4977-B062-3EE03E970D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}.Debug Arduino|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}.Debug Arduino|Any CPU.Build.0 = Debug|Any CPU
+		{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}.Release Arduino|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}.Release Arduino|Any CPU.Build.0 = Release|Any CPU
+		{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EA70EA3-4DC7-45BE-BD15-A374652FA7A5}.Debug Arduino|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA70EA3-4DC7-45BE-BD15-A374652FA7A5}.Debug Arduino|Any CPU.Build.0 = Debug|Any CPU
+		{4EA70EA3-4DC7-45BE-BD15-A374652FA7A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA70EA3-4DC7-45BE-BD15-A374652FA7A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA70EA3-4DC7-45BE-BD15-A374652FA7A5}.Release Arduino|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA70EA3-4DC7-45BE-BD15-A374652FA7A5}.Release Arduino|Any CPU.Build.0 = Debug|Any CPU
+		{4EA70EA3-4DC7-45BE-BD15-A374652FA7A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA70EA3-4DC7-45BE-BD15-A374652FA7A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A60E21C4-3731-4E79-A376-F39E027ED96F}.Debug Arduino|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60E21C4-3731-4E79-A376-F39E027ED96F}.Debug Arduino|Any CPU.Build.0 = Debug|Any CPU
+		{A60E21C4-3731-4E79-A376-F39E027ED96F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60E21C4-3731-4E79-A376-F39E027ED96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60E21C4-3731-4E79-A376-F39E027ED96F}.Release Arduino|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60E21C4-3731-4E79-A376-F39E027ED96F}.Release Arduino|Any CPU.Build.0 = Debug|Any CPU
+		{A60E21C4-3731-4E79-A376-F39E027ED96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60E21C4-3731-4E79-A376-F39E027ED96F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1B5D8B-DF3C-496E-BE3A-F0C913A7084F}.Debug Arduino|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1B5D8B-DF3C-496E-BE3A-F0C913A7084F}.Debug Arduino|Any CPU.Build.0 = Debug|Any CPU
+		{8C1B5D8B-DF3C-496E-BE3A-F0C913A7084F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1B5D8B-DF3C-496E-BE3A-F0C913A7084F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1B5D8B-DF3C-496E-BE3A-F0C913A7084F}.Release Arduino|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1B5D8B-DF3C-496E-BE3A-F0C913A7084F}.Release Arduino|Any CPU.Build.0 = Release|Any CPU
+		{8C1B5D8B-DF3C-496E-BE3A-F0C913A7084F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1B5D8B-DF3C-496E-BE3A-F0C913A7084F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41436106-1208-4D75-AAC4-C7A2CF74C979}.Debug Arduino|Any CPU.ActiveCfg = Debug|Any CPU
+		{41436106-1208-4D75-AAC4-C7A2CF74C979}.Debug Arduino|Any CPU.Build.0 = Debug|Any CPU
+		{41436106-1208-4D75-AAC4-C7A2CF74C979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41436106-1208-4D75-AAC4-C7A2CF74C979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41436106-1208-4D75-AAC4-C7A2CF74C979}.Release Arduino|Any CPU.ActiveCfg = Release|Any CPU
+		{41436106-1208-4D75-AAC4-C7A2CF74C979}.Release Arduino|Any CPU.Build.0 = Release|Any CPU
+		{41436106-1208-4D75-AAC4-C7A2CF74C979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41436106-1208-4D75-AAC4-C7A2CF74C979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23DD4230-3DDE-448E-9360-10DECCB90762}.Debug Arduino|Any CPU.ActiveCfg = Debug|Any CPU
+		{23DD4230-3DDE-448E-9360-10DECCB90762}.Debug Arduino|Any CPU.Build.0 = Debug|Any CPU
+		{23DD4230-3DDE-448E-9360-10DECCB90762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23DD4230-3DDE-448E-9360-10DECCB90762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23DD4230-3DDE-448E-9360-10DECCB90762}.Release Arduino|Any CPU.ActiveCfg = Release|Any CPU
+		{23DD4230-3DDE-448E-9360-10DECCB90762}.Release Arduino|Any CPU.Build.0 = Release|Any CPU
+		{23DD4230-3DDE-448E-9360-10DECCB90762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23DD4230-3DDE-448E-9360-10DECCB90762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81312CDD-1756-4C99-B9CD-A17E1130549A}.Debug Arduino|Any CPU.ActiveCfg = Debug|Any CPU
+		{81312CDD-1756-4C99-B9CD-A17E1130549A}.Debug Arduino|Any CPU.Build.0 = Debug|Any CPU
+		{81312CDD-1756-4C99-B9CD-A17E1130549A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81312CDD-1756-4C99-B9CD-A17E1130549A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81312CDD-1756-4C99-B9CD-A17E1130549A}.Release Arduino|Any CPU.ActiveCfg = Release|Any CPU
+		{81312CDD-1756-4C99-B9CD-A17E1130549A}.Release Arduino|Any CPU.Build.0 = Release|Any CPU
+		{81312CDD-1756-4C99-B9CD-A17E1130549A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81312CDD-1756-4C99-B9CD-A17E1130549A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA0C4A3E-AC5E-4535-A399-66143ED2FD5D}.Debug Arduino|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0C4A3E-AC5E-4535-A399-66143ED2FD5D}.Debug Arduino|Any CPU.Build.0 = Debug|Any CPU
+		{BA0C4A3E-AC5E-4535-A399-66143ED2FD5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0C4A3E-AC5E-4535-A399-66143ED2FD5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA0C4A3E-AC5E-4535-A399-66143ED2FD5D}.Release Arduino|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0C4A3E-AC5E-4535-A399-66143ED2FD5D}.Release Arduino|Any CPU.Build.0 = Release|Any CPU
+		{BA0C4A3E-AC5E-4535-A399-66143ED2FD5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0C4A3E-AC5E-4535-A399-66143ED2FD5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8469FB-83B5-4E1B-AA1E-9DC87BF5F492}.Debug Arduino|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8469FB-83B5-4E1B-AA1E-9DC87BF5F492}.Debug Arduino|Any CPU.Build.0 = Debug|Any CPU
+		{BA8469FB-83B5-4E1B-AA1E-9DC87BF5F492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8469FB-83B5-4E1B-AA1E-9DC87BF5F492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8469FB-83B5-4E1B-AA1E-9DC87BF5F492}.Release Arduino|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8469FB-83B5-4E1B-AA1E-9DC87BF5F492}.Release Arduino|Any CPU.Build.0 = Release|Any CPU
+		{BA8469FB-83B5-4E1B-AA1E-9DC87BF5F492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8469FB-83B5-4E1B-AA1E-9DC87BF5F492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE9AD44F-597D-4222-A72C-89BD6D0BB043}.Debug Arduino|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9AD44F-597D-4222-A72C-89BD6D0BB043}.Debug Arduino|Any CPU.Build.0 = Debug|Any CPU
+		{BE9AD44F-597D-4222-A72C-89BD6D0BB043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9AD44F-597D-4222-A72C-89BD6D0BB043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9AD44F-597D-4222-A72C-89BD6D0BB043}.Release Arduino|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9AD44F-597D-4222-A72C-89BD6D0BB043}.Release Arduino|Any CPU.Build.0 = Release|Any CPU
+		{BE9AD44F-597D-4222-A72C-89BD6D0BB043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9AD44F-597D-4222-A72C-89BD6D0BB043}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {067AE741-B913-421F-9CF1-75EAF8136CDF}
+	EndGlobalSection
+EndGlobal

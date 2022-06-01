@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <IntermediateOutputPath>..\Output\Trunk\</IntermediateOutputPath>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52F814F0-CA2B-4DA1-BAF6-8235FFCC2860}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>General.Executor</RootNamespace>
+    <AssemblyName>General.Executor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Output\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Output\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerBaseUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ServerBaseUI.Designer.cs">
+      <DependentUpon>ServerBaseUI.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ServerBaseUI.resx">
+      <DependentUpon>ServerBaseUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Client\Auth.Client.csproj">
+      <Project>{5ae46f24-75f2-456a-9015-efe765f522b8}</Project>
+      <Name>Auth.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Auth.Server\Auth.Server.csproj">
+      <Project>{d14625e7-d8e3-4548-bee4-8c8632a23e6b}</Project>
+      <Name>Auth.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Base\Base.csproj">
+      <Project>{7b5ee514-2ff3-468b-8cf6-47b8f28eff07}</Project>
+      <Name>Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data.Client\Data.Client.csproj">
+      <Project>{d504f25c-17f6-42f9-a146-5fdd8d96941b}</Project>
+      <Name>Data.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data.Server\Data.Server.csproj">
+      <Project>{16f580d2-77d4-4490-9b53-657e97f5137d}</Project>
+      <Name>Data.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Game.Client\Game.Client.csproj">
+      <Project>{d9f40a74-fa73-417c-9e36-1a5a6b2a26f9}</Project>
+      <Name>Game.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Game.Controller\Game.Controller.csproj">
+      <Project>{4315b095-801c-4964-a536-41a22c5d41bc}</Project>
+      <Name>Game.Controller</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Game.Data\Game.Data.csproj">
+      <Project>{a35412cf-25e9-4f25-9b22-15b0adc425c7}</Project>
+      <Name>Game.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Game.Server\Game.Server.csproj">
+      <Project>{7ce13601-0e59-4816-8bb5-61847ccde2a9}</Project>
+      <Name>Game.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gate.Client\Gate.Client.csproj">
+      <Project>{6089f504-e259-465c-a2ac-28a92fd85251}</Project>
+      <Name>Gate.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gate.Server\Gate.Server.csproj">
+      <Project>{233046ac-ea6f-4bf2-814c-d06d31e125a6}</Project>
+      <Name>Gate.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Network\Network.csproj">
+      <Project>{87d6ec6f-0ff4-4dc1-8d5a-c76165d3d9e7}</Project>
+      <Name>Network</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Server.Configuration\Server.Configuration.csproj">
+      <Project>{3cdd8b3d-e935-43c8-abc0-cd493f1ab458}</Project>
+      <Name>Server.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Server.Data\Server.Data.csproj">
+      <Project>{dd755903-a09a-492b-988b-d816b2518c57}</Project>
+      <Name>Server.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Server.Logger\Server.Logger.csproj">
+      <Project>{5fb5bda4-2d6b-40fe-b86b-74f9137d3d4a}</Project>
+      <Name>Server.Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Server.Manager\Server.Manager.csproj">
+      <Project>{696463ce-dfe5-4793-9439-b1f52c5ac755}</Project>
+      <Name>Server.Manager</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

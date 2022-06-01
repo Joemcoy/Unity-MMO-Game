@@ -1,0 +1,846 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cn",
+				"channels"
+			],
+			[
+				"h",
+				"http-equiv\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Output/Debug/Content/v2/Master.cshtml",
+			"settings":
+			{
+				"buffer_size": 3970,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Output/Debug/Content/v2/js/jquery.min.js",
+			"settings":
+			{
+				"buffer_size": 94839,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Output/Debug/Content/v2/js/matrix.js",
+			"settings":
+			{
+				"buffer_size": 4026,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Output/Debug/Content/v2/tables.html",
+			"settings":
+			{
+				"buffer_size": 27001,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Output/Debug/Content/v2/home/default.cshtml",
+			"settings":
+			{
+				"buffer_size": 17106,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Output/Debug/Content/v2/users/default.cshtml",
+			"settings":
+			{
+				"buffer_size": 541,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Output/Debug/Content/v2/users/register.cshtml",
+			"settings":
+			{
+				"buffer_size": 1845,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "register.cshtml"
+			}
+		},
+		{
+			"file": "Output/Debug/Content/v2/Sidebar.cshtml",
+			"settings":
+			{
+				"buffer_size": 2109,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Output/Debug/Content/v2/MessageArea.cshtml",
+			"settings":
+			{
+				"buffer_size": 319,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "MessageArea.cshtml"
+			}
+		},
+		{
+			"file": "Output/Debug/Content/v2/channels/default.cshtml",
+			"settings":
+			{
+				"buffer_size": 1273,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Output/Debug/Content/v2/server/default.cshtml",
+			"settings":
+			{
+				"buffer_size": 328,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "default.cshtml"
+			}
+		},
+		{
+			"file": "Output/Debug/Content/v2/js/bootstrap-confirmation.min.js",
+			"settings":
+			{
+				"buffer_size": 6819,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "bootstrap-confirmation.min.js"
+			}
+		},
+		{
+			"file": "Output/Debug/Content/v2/channels/register.cshtml",
+			"settings":
+			{
+				"buffer_size": 1686,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "register.cshtml"
+			}
+		},
+		{
+			"file": "Output/Debug/Content/v2/secure/login.cshtml",
+			"settings":
+			{
+				"buffer_size": 2002,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "login.cshtml"
+			}
+		},
+		{
+			"file": "Output/Debug/Content/v2/secure/register.cshtml",
+			"settings":
+			{
+				"buffer_size": 2310,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "register.cshtml"
+			}
+		},
+		{
+			"file": "Output/Debug/Content/v2/js/matrix.login.js",
+			"settings":
+			{
+				"buffer_size": 1026,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Output/Debug/Content/v2/tlogin.html",
+			"settings":
+			{
+				"buffer_size": 3174,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Projetos/PiMMORPG - Server/Output/Debug/Content",
+		"/D/Projetos/PiMMORPG - Server/Output/Debug/Content/v2"
+	],
+	"file_history":
+	[
+		"/O/Projetos/PiMMORPG - Server/Output/Debug/Content/v2/js/redir_button.js",
+		"/O/Projetos/PiMMORPG - Server/Output/Debug/Content/v2/Topbar.cshtml",
+		"/O/Projetos/PiMMORPG - Server/Output/Debug/Content/v2/form-common.html",
+		"/O/Projetos/PiMMORPG - Server/Output/Debug/Content/v2/users/default.cshtml",
+		"/O/Projetos/PiMMORPG - Server/Output/Debug/Content/v2/tlogin.html",
+		"/O/Projetos/PiMMORPG - Server/Output/Debug/Content/v2/chat.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 14,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Output/Debug/Content/v2/Master.cshtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3206,
+								3206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Razor/Razor.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1098.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Output/Debug/Content/v2/js/jquery.min.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 94839,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								94839
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 206096.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Output/Debug/Content/v2/js/matrix.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 1305.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Output/Debug/Content/v2/tables.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5902,
+								7462
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 825.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Output/Debug/Content/v2/home/default.cshtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Razor/Razor.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Output/Debug/Content/v2/users/default.cshtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Razor/Razor.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Output/Debug/Content/v2/users/register.cshtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1845
+							]
+						],
+						"settings":
+						{
+							"auto_name": "register.cshtml",
+							"syntax": "Packages/Razor/Razor.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Output/Debug/Content/v2/Sidebar.cshtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1720,
+								1720
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Razor/Razor.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Output/Debug/Content/v2/MessageArea.cshtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"auto_name": "MessageArea.cshtml",
+							"syntax": "Packages/Razor/Razor.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Output/Debug/Content/v2/channels/default.cshtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								648,
+								648
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Razor/Razor.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "Output/Debug/Content/v2/server/default.cshtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"auto_name": "default.cshtml",
+							"syntax": "Packages/Razor/Razor.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "Output/Debug/Content/v2/js/bootstrap-confirmation.min.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6819,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"auto_name": "bootstrap-confirmation.min.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "Output/Debug/Content/v2/channels/register.cshtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								573,
+								573
+							]
+						],
+						"settings":
+						{
+							"auto_name": "register.cshtml",
+							"syntax": "Packages/Razor/Razor.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "Output/Debug/Content/v2/secure/login.cshtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1889,
+								1889
+							]
+						],
+						"settings":
+						{
+							"auto_name": "login.cshtml",
+							"syntax": "Packages/Razor/Razor.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 503.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "Output/Debug/Content/v2/secure/register.cshtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1899,
+								1899
+							]
+						],
+						"settings":
+						{
+							"auto_name": "register.cshtml",
+							"syntax": "Packages/Razor/Razor.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 511.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "Output/Debug/Content/v2/js/matrix.login.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "Output/Debug/Content/v2/tlogin.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1672,
+								3174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 406.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "WebServer.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 408.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

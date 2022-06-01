@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <IntermediateOutputPath>..\Output\Trunk\</IntermediateOutputPath>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{81312CDD-1756-4C99-B9CD-A17E1130549A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PiMMORPG.Server.Auth</RootNamespace>
+    <AssemblyName>PiMMORPG.Server.Auth</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Output\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Output\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net40\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PiAuthServer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Requests\LoginRequest.cs" />
+    <Compile Include="Responses\LoginResponse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PiMMORPG.Client.Auth\PiMMORPG.Client.Auth.csproj">
+      <Project>{23dd4230-3dde-448e-9360-10deccb90762}</Project>
+      <Name>PiMMORPG.Client.Auth</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PiMMORPG.Client\PiMMORPG.Client.csproj">
+      <Project>{38c7b170-145b-4977-b062-3ee03e970d4b}</Project>
+      <Name>PiMMORPG.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PiMMORPG.Server.General\PiMMORPG.Server.General.csproj">
+      <Project>{be9ad44f-597d-4222-a72c-89bd6d0bb043}</Project>
+      <Name>PiMMORPG.Server.General</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PiMMORPG\PiMMORPG.csproj">
+      <Project>{eba01791-dae2-4065-8aea-0c1cbb36f059}</Project>
+      <Name>PiMMORPG</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\tFramework.DataDriver.MySQL\tFramework.DataDriver.MySQL.csproj">
+      <Project>{9247b22d-b746-4188-bf3a-ffee444072c9}</Project>
+      <Name>tFramework.DataDriver.MySQL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\tFramework.DataDriver\tFramework.DataDriver.csproj">
+      <Project>{8bd9f473-7ce5-49fc-bae5-d7356b1a6197}</Project>
+      <Name>tFramework.DataDriver</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\tFramework.Data\tFramework.Data.csproj">
+      <Project>{a2b34eac-f3f6-45ab-8c42-cf875bdb941a}</Project>
+      <Name>tFramework.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\tFramework.Network\tFramework.Network.csproj">
+      <Project>{e3bada74-9013-4d1e-9794-4d13ae074f58}</Project>
+      <Name>tFramework.Network</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\tFramework\tFramework.csproj">
+      <Project>{0984d5e7-6b48-4032-afd5-1b90291717f5}</Project>
+      <Name>tFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="docs\MySqlCommand.xml" />
+    <Content Include="docs\MySqlCommandBuilder.xml" />
+    <Content Include="docs\MySqlConnection.xml" />
+    <Content Include="docs\MySqlConnectionStringBuilder.xml" />
+    <Content Include="docs\MySqlDataAdapter.xml" />
+    <Content Include="docs\MySqlDataReader.xml" />
+    <Content Include="docs\MySqlException.xml" />
+    <Content Include="docs\MySqlHelper.xml" />
+    <Content Include="docs\MySqlParameter.xml" />
+    <Content Include="docs\MySqlParameterCollection.xml" />
+    <Content Include="docs\MySqlTransaction.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

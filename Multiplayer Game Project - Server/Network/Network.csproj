@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <IntermediateOutputPath>..\Output\Trunk\</IntermediateOutputPath>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87D6EC6F-0FF4-4DC1-8D5A-C76165D3D9E7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Network</RootNamespace>
+    <AssemblyName>Network</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Output\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>..\Output\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArgumentReceivers\SocketArguments.cs" />
+    <Compile Include="Bases\ClientBase.cs" />
+    <Compile Include="Bases\ResponseBase.cs" />
+    <Compile Include="Bases\ServerBase.cs" />
+    <Compile Include="Data\EventArgs\BaseClientEventArgs.cs" />
+    <Compile Include="Data\Dispatchers\IServerSocketDispatcher.cs" />
+    <Compile Include="Data\Enums\DisconnectReason.cs" />
+    <Compile Include="Data\EventArgs\BaseServerEventArgs.cs" />
+    <Compile Include="Data\EventArgs\ClientConnectedEventArgs.cs" />
+    <Compile Include="Data\EventArgs\ClientDisconnectedEventArgs.cs" />
+    <Compile Include="Data\EventArgs\ClientExceptionEventArgs.cs" />
+    <Compile Include="Data\EventArgs\ClientSocketEventArgs.cs" />
+    <Compile Include="Data\EventArgs\PacketEventArgs.cs" />
+    <Compile Include="Data\EventArgs\RequestEventArgs.cs" />
+    <Compile Include="Data\EventArgs\ResponseEventArgs.cs" />
+    <Compile Include="Data\EventArgs\ServerExceptionEventArgs.cs" />
+    <Compile Include="Data\EventArgs\ServerSocketEventArgs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Data\Interfaces\IClientSocket.cs" />
+    <Compile Include="Data\Interfaces\IPacketHandler.cs" />
+    <Compile Include="Data\Interfaces\IRequest.cs" />
+    <Compile Include="Data\Interfaces\IResponse.cs" />
+    <Compile Include="Data\Interfaces\IServerSocket.cs" />
+    <Compile Include="Data\Interfaces\ISocketPacket.cs" />
+    <Compile Include="Data\SocketConstants.cs" />
+    <Compile Include="Protocol\BitPacket.cs" />
+    <Compile Include="v1\ClientIOQueue.cs" />
+    <Compile Include="v1\ClientPing.cs" />
+    <Compile Include="v1\ClientSocket.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Data\Dispatchers\IClientSocketDispatcher.cs" />
+    <Compile Include="v1\ServerSocket.cs" />
+    <Compile Include="Protocol\StreamPacket.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Base\Base.csproj">
+      <Project>{7B5EE514-2FF3-468B-8CF6-47B8F28EFF07}</Project>
+      <Name>Base</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

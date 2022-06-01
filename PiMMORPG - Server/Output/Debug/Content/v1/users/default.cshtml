@@ -1,0 +1,15 @@
+@inherits NancyRazorViewBase<UsersModel>
+@{
+    Layout = "Master.cshtml";
+    ViewBag.title = "Users";     
+}
+
+@if(Model.Users.Length == 0) { <span>Nenhum usuário cadastrado!</span> }
+else
+{
+	@foreach(var user in Model.Users)
+	{
+		<span>@user.Username</span> <br/>
+		<span>@user.Password</span>
+	}
+}

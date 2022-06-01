@@ -1,0 +1,63 @@
+02/01/2018 21:34:17 - CommandFactory - SUCCESS - Command 'system' has been loaded!
+02/01/2018 21:34:17 - CommandFactory - SUCCESS - Command 'teleport' has been loaded!
+02/01/2018 21:34:17 - CommandFactory - SUCCESS - Command 'tospawn' has been loaded!
+02/01/2018 21:34:17 - CommandFactory - SUCCESS - Command 'rtime' has been loaded!
+02/01/2018 21:34:17 - CommandFactory - SUCCESS - Command 'rinfo' has been loaded!
+02/01/2018 21:34:17 - CommandFactory - SUCCESS - Command 'settimeadd' has been loaded!
+02/01/2018 21:34:17 - CommandFactory - SUCCESS - Command 'settime' has been loaded!
+02/01/2018 21:34:17 - CommandFactory - SUCCESS - Command 'wlevel' has been loaded!
+02/01/2018 21:34:17 - CommandFactory - SUCCESS - Command 'additem' has been loaded!
+02/01/2018 21:34:17 - CommandFactory - SUCCESS - Command 'drop' has been loaded!
+02/01/2018 21:34:18 - ServerControl - INFORMATION - Preparing drivers...
+02/01/2018 21:34:18 - ServerControl - INFORMATION - Preparing driver AccessLevelDriver...
+02/01/2018 21:34:20 - ServerControl - INFORMATION - Preparing driver AccountDriver...
+02/01/2018 21:34:20 - ServerControl - INFORMATION - Preparing driver APIAccessDriver...
+02/01/2018 21:34:20 - ServerControl - INFORMATION - Preparing driver ChannelDriver...
+02/01/2018 21:34:20 - ServerControl - INFORMATION - Preparing driver CharacterDriver...
+02/01/2018 21:34:21 - ServerControl - INFORMATION - Preparing driver CharacterItemDriver...
+02/01/2018 21:34:21 - ServerControl - INFORMATION - Preparing driver CharacterPositionDriver...
+02/01/2018 21:34:21 - ServerControl - INFORMATION - Preparing driver CharacterStyleDriver...
+02/01/2018 21:34:21 - ServerControl - INFORMATION - Preparing driver DropDriver...
+02/01/2018 21:34:21 - ServerControl - INFORMATION - Preparing driver ItemDriver...
+02/01/2018 21:34:21 - ServerControl - INFORMATION - Preparing driver ItemTypeDriver...
+02/01/2018 21:34:21 - ServerControl - INFORMATION - Preparing driver MapDriver...
+02/01/2018 21:34:21 - ServerControl - INFORMATION - Preparing driver MapSpawnDriver...
+02/01/2018 21:34:21 - ServerControl - INFORMATION - Preparing driver SpawnDriver...
+02/01/2018 21:34:21 - ServerControl - INFORMATION - Preparing driver TreeDriver...
+02/01/2018 21:34:22 - ComponentFactory - SUCCESS - Component ServerControl as been enabled!
+02/01/2018 21:34:22 - ComponentFactory - SUCCESS - Component PiAuthServer as been enabled!
+02/01/2018 21:34:22 - PiRPGServer - SUCCESS - Server (Beta):RPG:1369 has been opened!
+02/01/2018 21:34:22 - ComponentFactory - SUCCESS - Component PiRPGServer as been enabled!
+02/01/2018 21:34:22 - PiBRServer - SUCCESS - Server (Beta BR):BattleRoyale:1370 has been opened!
+02/01/2018 21:34:22 - ComponentFactory - SUCCESS - Component PiBRServer as been enabled!
+02/01/2018 21:34:22 - PiBRServer - SUCCESS - Server (Beta BR 2):BattleRoyale:1371 has been opened!
+02/01/2018 21:34:22 - ComponentFactory - SUCCESS - Component PiBRServer as been enabled!
+02/01/2018 21:34:22 - PiRPGServer - SUCCESS - Server (teste):RPG:123 has been opened!
+02/01/2018 21:34:22 - ComponentFactory - SUCCESS - Component PiRPGServer as been enabled!
+02/01/2018 21:34:25 - Bootstraper - SUCCESS - css => css
+02/01/2018 21:34:25 - Bootstraper - SUCCESS - js => js
+02/01/2018 21:34:25 - Bootstraper - SUCCESS - template => template
+02/01/2018 21:34:25 - Bootstraper - SUCCESS - vendor => vendor
+02/01/2018 21:34:25 - Bootstraper - SUCCESS - vendor\bootstrap => vendor\bootstrap
+02/01/2018 21:34:25 - Bootstraper - SUCCESS - vendor\bootstrap\css => vendor\bootstrap\css
+02/01/2018 21:34:25 - Bootstraper - SUCCESS - vendor\bootstrap\js => vendor\bootstrap\js
+02/01/2018 21:34:25 - Bootstraper - SUCCESS - vendor\chart.js => vendor\chart.js
+02/01/2018 21:34:25 - Bootstraper - SUCCESS - vendor\datatables => vendor\datatables
+02/01/2018 21:34:25 - Bootstraper - SUCCESS - vendor\font-awesome => vendor\font-awesome
+02/01/2018 21:34:25 - Bootstraper - SUCCESS - vendor\font-awesome\css => vendor\font-awesome\css
+02/01/2018 21:34:25 - Bootstraper - SUCCESS - vendor\font-awesome\fonts => vendor\font-awesome\fonts
+02/01/2018 21:34:26 - Bootstraper - SUCCESS - vendor\font-awesome\less => vendor\font-awesome\less
+02/01/2018 21:34:26 - Bootstraper - SUCCESS - vendor\font-awesome\scss => vendor\font-awesome\scss
+02/01/2018 21:34:26 - Bootstraper - SUCCESS - vendor\jquery => vendor\jquery
+02/01/2018 21:34:26 - Bootstraper - SUCCESS - vendor\jquery-cookie => vendor\jquery-cookie
+02/01/2018 21:34:26 - Bootstraper - SUCCESS - vendor\jquery-easing => vendor\jquery-easing
+02/01/2018 21:34:26 - RazorConfiguration - INFORMATION - Caching razor assemblies...
+02/01/2018 21:34:26 - RazorConfiguration - INFORMATION - Caching razor namespaces...
+02/01/2018 21:34:28 - RazorConfiguration - SUCCESS - Success! Cached 23 assemblies and 170 namespaces!
+02/01/2018 21:34:29 - ComponentFactory - SUCCESS - Component WebServer as been enabled!
+02/01/2018 22:31:57 - ComponentFactory - SUCCESS - Component PiRPGServer as been disabled!
+02/01/2018 22:31:58 - ComponentFactory - SUCCESS - Component PiBRServer as been disabled!
+02/01/2018 22:31:59 - ComponentFactory - SUCCESS - Component PiBRServer as been disabled!
+02/01/2018 22:32:01 - ComponentFactory - SUCCESS - Component PiRPGServer as been disabled!
+02/01/2018 22:32:03 - PiBRServer - SUCCESS - Server (Beta BR 2):BattleRoyale:1371 has been opened!
+02/01/2018 22:32:03 - ComponentFactory - SUCCESS - Component PiBRServer as been enabled!

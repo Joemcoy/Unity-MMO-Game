@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainProject", "MainProject\MainProject.csproj", "{A95D9E2A-0A93-464A-9FEC-D1D0FD87807C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tFramework.Data", "..\PiMMORPG - Server\tFramework.Data\tFramework.Data.csproj", "{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tFramework", "..\PiMMORPG - Server\tFramework\tFramework.csproj", "{0984D5E7-6B48-4032-AFD5-1B90291717F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiMMORPG", "..\PiMMORPG - Server\PiMMORPG\PiMMORPG.csproj", "{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Arduino|Any CPU = Debug Arduino|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release Arduino|Any CPU = Release Arduino|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A95D9E2A-0A93-464A-9FEC-D1D0FD87807C}.Debug Arduino|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95D9E2A-0A93-464A-9FEC-D1D0FD87807C}.Debug Arduino|Any CPU.Build.0 = Debug|Any CPU
+		{A95D9E2A-0A93-464A-9FEC-D1D0FD87807C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95D9E2A-0A93-464A-9FEC-D1D0FD87807C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95D9E2A-0A93-464A-9FEC-D1D0FD87807C}.Release Arduino|Any CPU.ActiveCfg = Release|Any CPU
+		{A95D9E2A-0A93-464A-9FEC-D1D0FD87807C}.Release Arduino|Any CPU.Build.0 = Release|Any CPU
+		{A95D9E2A-0A93-464A-9FEC-D1D0FD87807C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95D9E2A-0A93-464A-9FEC-D1D0FD87807C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}.Debug Arduino|Any CPU.ActiveCfg = Debug Arduino|Any CPU
+		{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}.Debug Arduino|Any CPU.Build.0 = Debug Arduino|Any CPU
+		{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}.Release Arduino|Any CPU.ActiveCfg = Release Arduino|Any CPU
+		{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}.Release Arduino|Any CPU.Build.0 = Release Arduino|Any CPU
+		{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B34EAC-F3F6-45AB-8C42-CF875BDB941A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0984D5E7-6B48-4032-AFD5-1B90291717F5}.Debug Arduino|Any CPU.ActiveCfg = Debug Arduino|Any CPU
+		{0984D5E7-6B48-4032-AFD5-1B90291717F5}.Debug Arduino|Any CPU.Build.0 = Debug Arduino|Any CPU
+		{0984D5E7-6B48-4032-AFD5-1B90291717F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0984D5E7-6B48-4032-AFD5-1B90291717F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0984D5E7-6B48-4032-AFD5-1B90291717F5}.Release Arduino|Any CPU.ActiveCfg = Release Arduino|Any CPU
+		{0984D5E7-6B48-4032-AFD5-1B90291717F5}.Release Arduino|Any CPU.Build.0 = Release Arduino|Any CPU
+		{0984D5E7-6B48-4032-AFD5-1B90291717F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0984D5E7-6B48-4032-AFD5-1B90291717F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}.Debug Arduino|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}.Debug Arduino|Any CPU.Build.0 = Debug|Any CPU
+		{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}.Release Arduino|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}.Release Arduino|Any CPU.Build.0 = Release|Any CPU
+		{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA01791-DAE2-4065-8AEA-0C1CBB36F059}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C2726CA-84D3-44F4-A837-D3879063DE41}
+	EndGlobalSection
+EndGlobal

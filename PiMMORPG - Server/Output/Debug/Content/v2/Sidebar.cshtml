@@ -1,0 +1,54 @@
+ <ul>
+   <li><a href="/"><i class="icon icon-home"></i> <span>Home</span></a> </li>
+   <li><a href="/server"><i class="icon icon-bolt"></i> <span>Server control</span></a> </li>
+   <li class="submenu">
+    <a href="#"><i class="icon icon-user"></i> <span>Users</span></a>
+    <ul>
+      <li><a href="/users">List</a></li>
+      <li><a href="/users/register">Register</a></li>
+    </ul>    
+  </li>
+  <li class="submenu">
+    <a href="#"><i class="icon icon-table"></i> <span>Channels</span></a>
+    <ul>
+      <li><a href="/channels">List</a></li>
+      <li><a href="/channels/register">Register</a></li>
+    </ul>    
+  </li>
+  @*<li class="content"> <span>Server RAM</span>
+    <div class="progress progress-mini progress-danger active progress-striped">
+      @{var rPercent = Math.Round((WebServer.FreeRAM * 100) / WebServer.TotalRAM, 0);}
+      <div style="width: @rPercent%;" class="bar"></div>
+    </div>
+    <span class="percent">@rPercent%</span>
+    <div class="stat">@(WebServer.FreeRAM) / @(WebServer.TotalRAM) GB</div>
+  </li>*@
+  @{var uPercent = Math.Round((WebServer.FreeDisk * 100) / WebServer.TotalDisk, 0); }
+  <li class="content"> 
+    <span>Server Disk - @WebServer.Drive.Name - @WebServer.Drive.DriveFormat</span>
+    <div class="progress progress-mini active progress-striped">
+      <div style="width: @uPercent%;" class="bar"></div>
+    </div>
+    <span class="percent">@uPercent%</span>
+    <div class="stat">@(WebServer.FreeDisk) / @(WebServer.TotalDisk) GB</div>
+  </li>
+  <li class="content"> 
+    <span>Server Status</span><br/>
+    @{var server = SingletonFactory.GetSingleton<PiAuthServer>();}
+    <span>- Auth Server:
+    @if(server.Socket.Opened) 
+    {
+      <span class="label label-success">Online</span><br/>
+
+      @foreach(var channel in ServerControl.Servers)
+      {
+        @Html.Raw("-- " + channel.Channel.Name)
+
+        if(channel.Socket.Opened) { <span class="label label-success">Online</span><br/> }
+        else { <span class="label label-important">Offline</span><br/> }
+      }
+    }
+    else { <span class="label label-important">Offline</span>  }
+  </span>
+</li>
+</ul>

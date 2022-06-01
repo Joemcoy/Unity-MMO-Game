@@ -1,0 +1,19 @@
+@inherits NancyRazorViewBase<dynamic>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>PiMMORPG - @ViewBag.title</title>
+  @foreach (string asset in Directory.GetFiles(WebServer.Bootstraper.GetRootPath() + "/assets/", "*.*", SearchOption.AllDirectories))
+  {
+    var wPath = asset.Replace(WebServer.Bootstraper.GetRootPath(), string.Empty);
+    @if(System.IO.Path.GetExtension(asset) == ".css") {
+  <link rel="stylesheet" href="@wPath">
+    } else if(System.IO.Path.GetExtension(asset) == ".js") {
+  <script type="text/javascript" src="@wPath"></script>
+    }
+  }
+ </head>
+ <body>
+  @RenderBody()
+ </body>
+</html>

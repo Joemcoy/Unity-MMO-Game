@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <IntermediateOutputPath>..\Output\Trunk\</IntermediateOutputPath>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B5EE514-2FF3-468B-8CF6-47B8F28EFF07}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Base</RootNamespace>
+    <AssemblyName>Base</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Output\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>..\Output\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseHooks.cs" />
+    <Compile Include="Data\Abstracts\ACommand.cs" />
+    <Compile Include="Data\Abstracts\ASingleton.cs" />
+    <Compile Include="Data\Abstracts\IDispatcher.cs" />
+    <Compile Include="Data\Abstracts\XMLConfiguration.cs" />
+    <Compile Include="Data\Attributes\ArgumentAttribute.cs" />
+    <Compile Include="Data\DispatcherBases\ISingletonDispatcher.cs" />
+    <Compile Include="Data\EventArgs\DispatcherEventArgs.cs" />
+    <Compile Include="Data\EventArgs\SafeEventArgs.cs" />
+    <Compile Include="Data\Exceptions\NotImplementedInterfaceException.cs" />
+    <Compile Include="Data\Interfaces\IArgumentReceiver.cs" />
+    <Compile Include="Data\Interfaces\IBaseController.cs" />
+    <Compile Include="Data\Interfaces\IController.cs" />
+    <Compile Include="Data\Interfaces\IDispatcher.cs" />
+    <Compile Include="Data\Interfaces\IModel.cs" />
+    <Compile Include="Data\Interfaces\IStack.cs" />
+    <Compile Include="Factories\CommandFactory.cs" />
+    <Compile Include="Factories\ComponentFactory.cs" />
+    <Compile Include="Factories\ControllerFactory.cs" />
+    <Compile Include="Factories\StackFactory.cs" />
+    <Compile Include="Helpers\CompressionHelper.cs" />
+    <Compile Include="Helpers\EventHelper.cs" />
+    <Compile Include="Helpers\HashHelper.cs" />
+    <Compile Include="Helpers\RijndaelHelper.cs" />
+    <Compile Include="Manager\ArgumentManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Data\Interfaces\ISingleton.cs" />
+    <Compile Include="Data\Interfaces\IQueue.cs" />
+    <Compile Include="Data\Interfaces\IComponent.cs" />
+    <Compile Include="Helpers\IDHelper.cs" />
+    <Compile Include="Factories\SingletonFactory.cs" />
+    <Compile Include="Helpers\InstanceHelper.cs" />
+    <Compile Include="Factories\QueueFactory.cs" />
+    <Compile Include="Data\Interfaces\IThread.cs" />
+    <Compile Include="Data\Interfaces\IUpdater.cs" />
+    <Compile Include="Factories\ThreadFactory.cs" />
+    <Compile Include="Factories\Tasks\ThreadTask.cs" />
+    <Compile Include="Factories\Tasks\UpdaterTask.cs" />
+    <Compile Include="Factories\UpdaterFactory.cs" />
+    <Compile Include="Data\Interfaces\ILogger.cs" />
+    <Compile Include="Factories\Loggers\EventLogger.cs" />
+    <Compile Include="Data\Enums\LogType.cs" />
+    <Compile Include="Data\Abstracts\ADispatcher.cs" />
+    <Compile Include="Data\Interfaces\IDispatcherBase.cs" />
+    <Compile Include="Data\DispatcherBases\ILoggerDispatcher.cs" />
+    <Compile Include="Factories\LoggerFactory.cs" />
+    <Compile Include="Data\Interfaces\IConfiguration.cs" />
+    <Compile Include="Configurations\IntervalConfiguration.cs" />
+    <Compile Include="Factories\ConfigurationFactory.cs" />
+    <Compile Include="Data\DispatcherBases\IConfigurationDispatcher.cs" />
+    <Compile Include="Factories\Loggers\ConsoleLogger.cs" />
+    <Compile Include="Data\DispatcherBases\IThreadDispatcher.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Data\EventArgs\LoggerEventArgs.cs" />
+    <Compile Include="Data\EventArgs\SingletonEventArgs.cs" />
+    <Compile Include="Data\EventArgs\ThreadCallbackEventArgs.cs" />
+    <Compile Include="LinqExtensions.cs" />
+    <Compile Include="ReflectionExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

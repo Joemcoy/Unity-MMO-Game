@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{3CD2F87A-097E-4F04-A66C-573B91294DFA}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Game.Server\Responses\ClickMovePacket.cs">
+    <Files>
+      <File FileName="Launcher.Server\DataPackets\LauncherFilesPacket.cs" Line="32" Column="45" />
+      <File FileName="Data.Client\DataClient.cs" Line="1" Column="1" />
+      <File FileName="Game.Server\Commands\PrivateMessageCommand.cs" Line="47" Column="17" />
+      <File FileName="Game.Server\Responses\ExecuteCommandPacket.cs" Line="31" Column="83" />
+      <File FileName="Game.Server\GCommand.cs" Line="7" Column="19" />
+      <File FileName="Base\Factories\CommandFactory.cs" Line="53" Column="30" />
+      <File FileName="Game.Server\DataResponses\SendMobsPacket.cs" Line="43" Column="59" />
+      <File FileName="Game.Server\Manager\WorldManager.cs" Line="214" Column="42" />
+      <File FileName="Game.Server\Responses\ClickMovePacket.cs" Line="53" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>Launcher.Server/Launcher.Server.csproj</String>
+    <String>Chat.Client\Chat.Client.csproj</String>
+    <String>Chat.Server\Chat.Server.csproj</String>
+    <String>Chat.Service\Chat.Service.csproj</String>
+    <String>Launcher.Client\Launcher.Client.csproj</String>
+    <String>Launcher.Server\Launcher.Server.csproj</String>
+    <String>Launcher.Service\Launcher.Service.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.Game.Service PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

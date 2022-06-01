@@ -1,0 +1,52 @@
+@inherits NancyRazorViewBase<SuccessModel>
+@{
+Layout = "Master.cshtml";
+ViewBag.title = "Register channel";     
+}
+
+@section Breadcrumb {
+<a href="channels/" title="List all channels" class="tip-bottom"><i class="icon-table"></i> Users</a>
+<a href="channels/register" title="Register channel" class="tip-bottom"><i class="icon-table"></i> Register</a>
+}
+<div class="widget-box">
+	<div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+		<h5>Register channel</h5>
+	</div>
+	<div class="widget-content nopadding">
+	@Html.Partial("MessageArea")
+<form action="" method="post" class="form-horizontal">
+	<div class="control-group">
+		<label class="control-label">Name :</label>
+		<div class="controls">
+			<input type="text" name="name" class="span11" placeholder="Name" />
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label">Port :</label>
+		<div class="controls">
+			<input type="text" id="port" name="port" class="span11" placeholder="Port" />
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label">Is PVP :</label>
+		<div class="controls">
+			<input type="checkbox" name="ispvp"  class="span11" />
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label">Maximum Connections :</label>
+		<div class="controls">
+			<input type="text" id="maxconn" name="maximumconnections" class="span11" placeholder="Maximum connections" />
+		</div>
+	</div>
+	<div class="form-actions">
+		<button type="submit" class="btn btn-success">Register</button>
+	</div>
+</form>
+</div>
+<script>
+$(document).ready(function() { 	
+	var pattern = "999";
+	$("#port").mask(pattern);
+	$("#maxconn").mask(pattern);
+</script>

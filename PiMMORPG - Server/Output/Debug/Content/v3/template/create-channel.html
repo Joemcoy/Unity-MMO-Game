@@ -1,0 +1,33 @@
+<meta name="web-title" content="Create channel">
+
+<div class="card-body">
+  <p id="create-label">Fill in all the fields to create a new channel</p>
+  <form id="create-channel-form">
+    <div class="form-group">
+      <label for="username">Name</label>
+      <input class="form-control" id="name" type="text" aria-describedby="nameHelp" placeholder="Enter the channel name">
+    </div>    
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col-md-6">
+          <label for="password">Port</label>
+          <input class="form-control onlyNumbers" id="port" type="text" placeholder="Port">
+        </div>
+        <div class="col-md-6">
+          <label for="repeat-password">Maximum Connections</label>
+          <input class="form-control onlyNumbers" id="maxConns" type="text" placeholder="Maximum connections" value="6400">
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="nickname">Nickname</label>
+      <select class="form-control" id="type" placeholder="Select the channel type">
+        <option value="0">RPG</option>
+        <option value="1">Battle Royale</option>
+      </select>
+    </div>
+    <a class="btn btn-primary btn-block" href="" onclick="$(this).submit();return false;">Create</a>
+  </form>
+</div>
+
+<script src="js/admin-channel-create.js"></script>

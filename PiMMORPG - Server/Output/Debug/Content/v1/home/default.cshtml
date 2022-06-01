@@ -1,0 +1,22 @@
+@inherits NancyRazorViewBase<IndexModel>
+@{
+	Layout = "Master.cshtml";
+    ViewBag.title = "Home";     
+}
+
+@if(!string.IsNullOrEmpty(Model.Message))
+{
+  <span>Mensagem: @Model.Message</span><br/>
+}
+
+Server status:
+@if(Model.ServerStatus) 
+{
+ <span style="color:darkgreen">Online</span><br/><br/>
+ <button data-redir="/server/stop">Fechar servidor</button>
+}
+else 
+{ 
+<span style="color:darkred">Offline</span><br/><br/>
+<button data-redir="/server/start">Abrir servidor</button>
+}

@@ -1,0 +1,29 @@
+@inherits NancyRazorViewBase<UsersModel>
+@{
+Layout = "Master.cshtml";
+ViewBag.title = "Users";     
+}
+
+<table class="table table-bordered table-striped">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Username</th>
+			<th>Nickname</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach(var user in Model.Users)
+		{
+		<tr>
+			<td>@user.ID</td>
+			<td>@user.Username</td>
+			<td>@user.Nickname</td>
+			<td>
+				<button class="btn btn-mini btn-info">Update</button>
+				<button class="btn btn-mini btn-danger">Delete</button>
+			</td>
+		</tr>
+	}
+</tbody>
+</table>	

@@ -1,0 +1,59 @@
+@inherits NancyRazorViewBase<ChannelsModel>
+@{
+Layout = "Master.cshtml";
+ViewBag.title = "Channels";     
+
+if(Model.Channels.Length == 0)
+{
+	Model.Success = false;
+	Model.Message = "Nenhum canal registrado!";
+}
+else { Model.Success = true; }
+}
+
+@Html.Partial("MessageArea", Model)
+
+@if(Model.Success) {
+<table class="table table-bordered table-striped">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Port</th>
+			<th>Is PVP</th>
+			<th>Maximum Connections</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach(var channel in Model.Channels)
+		{
+		<tr>
+			<td>@channel.ID</td>
+			<td>@channel.Name</td>
+			<td>@channel.Port</td>
+			<td>@(channel.IsPVP ? "Yes" : "No")</td>
+			<td>@channel.MaximumConnections</td>
+			<td>
+				@{
+				var state = false;
+				var server = ServerControl.GetServer(channel.Port);
+
+				if(server == null)
+					if(ServerControl.RegisterServer(channel))
+						state = ServerControl.GetServer(channel.Port).Socket.Opened;
+					else
+						state = false;
+				else
+					state = server.Socket.Opened;
+			}
+
+			@if(!state) { <button class="btn btn-mini btn-success" data-redir="/channels/start/@channel.Port">Abrir</button> }
+			else { <button class="btn btn-mini btn-danger" data-redir="/channels/stop/@channel.Port">Fechar</button> }
+			<button class="btn btn-mini btn-info">Update</button>
+			<button class="btn btn-mini btn-danger" data-redir="/channels/delete/@channel.ID">Delete</button>
+		</td>
+	</tr>
+}
+</tbody>
+</table>	
+}

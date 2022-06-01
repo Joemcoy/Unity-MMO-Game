@@ -1,0 +1,26 @@
+<project outputDir="P:\Multiplayer Game Project - Server\Output\Debug\Confused" baseDir="P:\Multiplayer Game Project - Server\Output\Debug" xmlns="http://confuser.codeplex.com">
+  <rule pattern="true" preset="minimum">
+    <protection id="anti ildasm" />
+    <protection id="anti tamper" />
+    <protection id="anti debug" />
+    <protection id="rename" />
+  </rule>
+  <module path="Game.Client.dll" />
+  <module path="Game.Controller.dll" />
+  <module path="Game.Data.dll" />
+  <module path="Game.Server.dll" />
+  <module path="Gate.Client.dll" />
+  <module path="Gate.Server.dll" />
+  <module path="Network.dll" />
+  <module path="Server.Configuration.dll" />
+  <module path="Server.Data.dll" />
+  <module path="Server.Logger.dll" />
+  <module path="Auth.Client.dll" />
+  <module path="Auth.Server.dll" />
+  <module path="Base.dll" />
+  <module path="Data.Client.dll" />
+  <module path="Data.Server.dll" />
+  <module path="Data.Service.exe" />
+  <module path="Game.Service.exe" />
+  <module path="Auth.Service.exe" />
+</project>

@@ -1,0 +1,62 @@
+@inherits NancyRazorViewBase<SuccessModel>
+@{
+Layout = "Master.cshtml";
+ViewBag.title = "Register user";     
+}
+
+@section Breadcrumb {
+<a href="users/" title="List all users" class="tip-bottom"><i class="icon-user"></i> Users</a>
+<a href="users/register" title="Register users" class="tip-bottom"><i class="icon-user"></i> Register</a>
+}
+<div class="widget-box">
+	<div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+		<h5>Register user</h5>
+	</div>
+	<div class="widget-content nopadding">
+	@if(Model != null)
+	{
+		if(Model.Success)
+		{
+			<div class="alert alert-success alert-block">
+				<h4 class="alert-heading">Success!</h4>
+					@Model.Message
+				</div>
+		}
+		else
+		{
+			<div class="alert alert-error alert-block">
+				<h4 class="alert-heading">Error!</h4>
+					@Model.Message
+			</div>
+		}
+	}
+<form action="" method="post" class="form-horizontal">
+	<div class="control-group">
+		<label class="control-label">Username :</label>
+		<div class="controls">
+			<input type="text" name="username" class="span11" placeholder="Username" />
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label">Password :</label>
+		<div class="controls">
+			<input type="password" name="password" class="span11" placeholder="Password" />
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label">Repeat password :</label>
+		<div class="controls">
+			<input type="password" name="repeat-password"  class="span11" placeholder="Repeat the password"  />
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label">Nickname :</label>
+		<div class="controls">
+			<input type="text" name="nickname" class="span11" placeholder="Nickname" />
+		</div>
+	</div>
+	<div class="form-actions">
+		<button type="submit" class="btn btn-success">Register</button>
+	</div>
+</form>
+</div>

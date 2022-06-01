@@ -1,0 +1,15 @@
+@inherits NancyRazorViewBase<ServerModel>
+@{
+Layout = "Master.cshtml";
+ViewBag.title = "Server";
+}
+
+@Html.Partial("MessageArea")
+@if(Model.Status)
+{
+	<button class="btn btn-large btn-danger" data-redir="/server/stop">Fechar</button>
+}
+else
+{
+	<button class="btn btn-large btn-success" data-redir="/server/start">Abrir</button>
+}
