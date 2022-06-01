@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: cb902220f21bf3b42ac232be90df2f39
+labels:
+- InventoryProPrefab
+timeCreated: 1508338121
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: inventory/items/beast_warrior_pants
+  assetBundleVariant: 

@@ -1,0 +1,771 @@
+﻿<ResourceDictionary Name="Localization" xmlns="MarkLight">
+  <ResourceGroup Key="Login">
+    <Resource Language="en-us" Value="Login" />
+    <Resource Language="pt-br" Value="Entrar" />
+    <Resource Language="es-es" Value="Iniciar" />
+  </ResourceGroup>
+  <ResourceGroup Key="Settings">
+    <Resource Language="en-us" Value="Settings" />
+    <Resource Language="pt-br" Value="Configurações" />
+    <Resource Language="es-es" Value="Ajustes" />
+  </ResourceGroup>
+  <ResourceGroup Key="About">
+    <Resource Language="en-us" Value="About" />
+    <Resource Language="pt-br" Value="Sobre" />
+    <Resource Language="es-es" Value="Acerca de" />
+  </ResourceGroup>
+  <ResourceGroup Key="Quit">
+    <Resource Language="en-us" Value="Quit" />
+    <Resource Language="pt-br" Value="Sair" />
+    <Resource Language="es-es" Value="Dejar" />
+  </ResourceGroup>
+  <ResourceGroup Key="Rights">
+    <Resource Language="en-us" Value="All rights reserved" />
+    <Resource Language="pt-br" Value="Todos os direitos reservados" />
+    <Resource Language="es-es" Value="Todos los derechos reservados" />
+  </ResourceGroup>
+  <ResourceGroup Key="WaitingForGate">
+    <Resource Language="en-us" Value="Waiting for server selection..." />
+    <Resource Language="pt-br" Value="Aguardando seleção de servidor..."/>
+    <Resource Language="es-es" Value="Esperando la selección del servidor ...."/>
+  </ResourceGroup>
+
+  <!-- Morphs categories -->
+  <ResourceGroup Key="Head">
+    <Resource Language="en-us" Value="Head" />
+    <Resource Language="pt-br" Value="Cabeça"/>
+    <Resource Language="es-es" Value="Cabeza"/>
+  </ResourceGroup>
+  <ResourceGroup Key="Face">
+    <Resource Language="en-us" Value="Face" />
+    <Resource Language="pt-br" Value="Face"/>
+    <Resource Language="es-es" Value="Cara"/>
+  </ResourceGroup>
+  <ResourceGroup Key="Eyes">
+    <Resource Language="en-us" Value="Eyes" />
+    <Resource Language="pt-br" Value="Olhos"/>
+    <Resource Language="es-es" Value="Ojos"/>
+  </ResourceGroup>
+  <ResourceGroup Key="Nose">
+    <Resource Language="en-us" Value="Nose" />
+    <Resource Language="pt-br" Value="Nariz"/>
+    <Resource Language="es-es" Value="Nariz"/>
+  </ResourceGroup>
+  <ResourceGroup Key="Body">
+    <Resource Language="en-us" Value="Body" />
+    <Resource Language="pt-br" Value="Corpo"/>
+    <Resource Language="es-es" Value="Cuerpo"/>
+  </ResourceGroup>
+  <ResourceGroup Key="Torso">
+    <Resource Language="en-us" Value="Torso" />
+    <Resource Language="pt-br" Value="Torso"/>
+    <Resource Language="es-es" Value="Torso"/>
+  </ResourceGroup>
+  <ResourceGroup Key="Arms">
+    <Resource Language="en-us" Value="Arms" />
+    <Resource Language="pt-br" Value="Braços"/>
+    <Resource Language="es-es" Value="Brazos"/>
+  </ResourceGroup>
+  <ResourceGroup Key="Hands">
+    <Resource Language="en-us" Value="Hands" />
+    <Resource Language="pt-br" Value="Mãos"/>
+    <Resource Language="es-es" Value="Manos"/>
+  </ResourceGroup>
+  <ResourceGroup Key="Legs">
+    <Resource Language="en-us" Value="Legs" />
+    <Resource Language="pt-br" Value="Pernas"/>
+    <Resource Language="es-es" Value="Piernas"/>
+  </ResourceGroup>
+  <ResourceGroup Key="Feet">
+    <Resource Language="en-us" Value="Feet" />
+    <Resource Language="pt-br" Value="Pés"/>
+    <Resource Language="es-es" Value="Pies"/>
+  </ResourceGroup>
+
+  <!-- Morphs -->
+  <ResourceGroup Key="PHMCraniumSlope">
+    <Resource Language="en-us" Value="Cranium slope" />
+    <Resource Language="pt-br" Value="Inclinação do crânio"/>
+    <Resource Language="es-es" Value="Pendiente del cráneo"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMEarlobesAttached">
+    <Resource Language="en-us" Value="Earlobes Attached" />
+    <Resource Language="pt-br" Value="Lóbulos da orelha anexados"/>
+    <Resource Language="es-es" Value="Lóbulus de la oreja"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMEarsDepth">
+    <Resource Language="en-us" Value="Ears depth" />
+    <Resource Language="pt-br" Value="Tímpano"/>
+    <Resource Language="es-es" Value="Tuerto"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMEarsElf">
+    <Resource Language="en-us" Value="Ears Elf" />
+    <Resource Language="pt-br" Value="Orelhas de elfo"/>
+    <Resource Language="es-es" Value="Orejas de elfos"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMEarsHeight">
+    <Resource Language="en-us" Value="Ears Height" />
+    <Resource Language="pt-br" Value="Altura da orelha"/>
+    <Resource Language="es-es" Value="Altura de los oídos"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLJawOut_In">
+    <Resource Language="en-us" Value="Jaw Out" />
+    <Resource Language="pt-br" Value="Mandíbula"/>
+    <Resource Language="es-es" Value="Mandibula"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLLipBottomIn_Out">
+    <Resource Language="en-us" Value="Bottom lip" />
+    <Resource Language="pt-br" Value="Lábio inferior"/>
+    <Resource Language="es-es" Value="Labio inferior"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLLipBottomIn_OutL">
+    <Resource Language="en-us" Value="Bottom Lip L" />
+    <Resource Language="pt-br" Value="Lábio Inferior L"/>
+    <Resource Language="es-es" Value="Labio inferior L"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLLipBottomIn_OutR">
+    <Resource Language="en-us" Value="Bottom Lip R" />
+    <Resource Language="pt-br" Value="Lábio Inferior R"/>
+    <Resource Language="es-es" Value="Labio inferior R"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLLipBottomUp_Down">
+    <Resource Language="en-us" Value="Bottom Lip Up" />
+    <Resource Language="pt-br" Value="Lábio Inferior Cima Baixo"/>
+    <Resource Language="es-es" Value="Lábio Inferior arriba abajo"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLLipBottomUp_DownL">
+    <Resource Language="en-us" Value="Bottom Lip Up L" />
+    <Resource Language="pt-br" Value="Lábio Inferior Cima Baixo L"/>
+    <Resource Language="es-es" Value="Lábio Inferior arriba abajo L"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLLipBottomUp_DownR">   
+    <Resource Language="en-us" Value="Bottom Lip Up R" />
+    <Resource Language="pt-br" Value="Lábio Inferior Cima Baixo R"/>
+    <Resource Language="es-es" Value="Lábio Inferior arriba abajo R"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMJawCurve">
+    <Resource Language="en-us" Value="Jaw Curve" />
+    <Resource Language="pt-br" Value="Curvatura da mandíbula"/>
+    <Resource Language="es-es" Value="Curvatura de la mandíbula"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMJawHeight">
+    <Resource Language="en-us" Value="Jaw Height" />
+    <Resource Language="pt-br" Value="Altura da mandibula"/>
+    <Resource Language="es-es" Value="Altura de la mandibula"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMJawlineDepth">
+    <Resource Language="en-us" Value="Jaw line depth" />
+    <Resource Language="pt-br" Value="Profundidade da linha da mandíbula"/>
+    <Resource Language="es-es" Value="Profundidad línea de la mandibula"/>
+  </ResourceGroup>
+  <ResourceGroup Key="G2M_PHMlHornFrontHigh">
+    <Resource Language="en-us" Value="Horn front high" />
+    <Resource Language="pt-br" Value="Chifre frontal alto"/>
+    <Resource Language="es-es" Value="Bocina de alta frente"/>
+  </ResourceGroup>
+  <ResourceGroup Key="G2M_PHMlHornFrontLarge">
+    <Resource Language="en-us" Value="Horn front large" />
+    <Resource Language="pt-br" Value="Chifre frontal largo"/>
+    <Resource Language="es-es" Value="Bocina largo frente"/>
+  </ResourceGroup>
+  <ResourceGroup Key="G2M_PHMlHornFrontSmall">
+    <Resource Language="en-us" Value="Horn front small" />
+    <Resource Language="pt-br" Value="Chifre frontal pequeno"/>
+    <Resource Language="es-es" Value="Bocina pequeno frente"/>
+  </ResourceGroup>
+  <ResourceGroup Key="G2M_PHMlHornSide">
+    <Resource Language="en-us" Value="Horn side" />
+    <Resource Language="pt-br" Value="Lado do chifre"/>
+    <Resource Language="es-es" Value="Lado del bocina"/>
+  </ResourceGroup>
+  <ResourceGroup Key="G2M_PHMrHornFrontHigh">
+    <Resource Language="en-us" Value="Horn front high" />
+    <Resource Language="pt-br" Value="Chifre frontal alto"/>
+    <Resource Language="es-es" Value="Bocina de alta frente"/>
+  </ResourceGroup>
+  <ResourceGroup Key="G2M_PHMrHornFrontLarge">
+    <Resource Language="en-us" Value="Horn front large" />
+    <Resource Language="pt-br" Value="Chifre frontal largo"/>
+    <Resource Language="es-es" Value="Bocina largo frente"/>
+  </ResourceGroup>
+  <ResourceGroup Key="G2M_PHMrHornFrontSmall">
+    <Resource Language="en-us" Value="Horn front small" />
+    <Resource Language="pt-br" Value="Chifre frontal pequeno"/>
+    <Resource Language="es-es" Value="Bocina pequeno frente"/>
+  </ResourceGroup>
+  <ResourceGroup Key="G2M_PHMrHornSide">
+    <Resource Language="en-us" Value="Horn side" />
+    <Resource Language="pt-br" Value="Lado do chifre"/>
+    <Resource Language="es-es" Value="Lado del bocina"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMEyelashesLength">
+    <Resource Language="en-us" Value="Eyelashes lenght" />
+    <Resource Language="pt-br" Value="Tamanho dos cilios"/>
+    <Resource Language="es-es" Value="Tamaño del cilios"/>
+  </ResourceGroup>
+  <ResourceGroup Key="Eyelid_Size">
+    <Resource Language="en-us" Value="Eyelid size" />
+    <Resource Language="pt-br" Value="Tamanho das pálpebras"/>
+    <Resource Language="es-es" Value="Tamaño de los párpados"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMEyelidsFoldDown">
+    <Resource Language="en-us" Value="Eyelids folddown" />
+    <Resource Language="pt-br" Value="Pálpebra dobrada"/>
+    <Resource Language="es-es" Value="Parpados dobrados"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMEyesAlmondInner">
+    <Resource Language="en-us" Value="Eyes almond inner" />
+    <Resource Language="pt-br" Value="Esfera ocular interna"/>
+    <Resource Language="es-es" Value="Interior de la bola del ojo"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMEyesAlmondOuter">
+    <Resource Language="en-us" Value="Eyes almond inner" />
+    <Resource Language="pt-br" Value="Esfera ocular interna"/>
+    <Resource Language="es-es" Value="Interior de la bola del ojo"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMEyesAngledInner">
+    <Resource Language="en-us" Value="Eyes angled inner" />
+    <Resource Language="pt-br" Value="Angulo interior dos olhos"/>
+    <Resource Language="es-es" Value="Angulo dentro del ojo"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMEyesAngledOuter">
+    <Resource Language="en-us" Value="Eyes Angled outer" />
+    <Resource Language="pt-br" Value="Angulo exterior dos olhos"/>
+    <Resource Language="es-es" Value="Angulo exterior del ojo"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMEyesHeight">
+    <Resource Language="en-us" Value="Eyes height" />
+    <Resource Language="pt-br" Value="Altura dos olhos"/>
+    <Resource Language="es-es" Value="Altura de los ojos"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMEyesIrisSize">
+    <Resource Language="en-us" Value="Eyes iris size" />
+    <Resource Language="pt-br" Value="Tamanho da iris"/>
+    <Resource Language="es-es" Value="Tamanho de los iris"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMEyesSize">
+    <Resource Language="en-us" Value="Eyes size" />
+    <Resource Language="pt-br" Value="Tamanho dos olhos"/>
+    <Resource Language="es-es" Value="Tamaño de los ojos"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMEyesWidth">
+    <Resource Language="en-us" Value="Eyes width" />
+    <Resource Language="pt-br" Value="Largura dos olhos"/>
+    <Resource Language="es-es" Value="Ancho de los ojos"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLEyelidsLowerUpDown">
+    <Resource Language="en-us" Value="Eye lids lower UpDown" />
+    <Resource Language="pt-br" Value="Palpebras inferiores"/>
+    <Resource Language="es-es" Value="Parpados inferiores"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLEyelidsLowerUpDownL">
+    <Resource Language="en-us" Value="Eye lids lower UpDown L" />
+    <Resource Language="pt-br" Value="Palpebras inferiores L"/>
+    <Resource Language="es-es" Value="Parpados inferiores L"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLEyelidsLowerUpDownR">
+     <Resource Language="en-us" Value="Eye lids lower UpDown R" />
+    <Resource Language="pt-br" Value="Palpebras inferiores R"/>
+    <Resource Language="es-es" Value="Parpados inferiores R"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLEyelidsUpperDownUp">
+    <Resource Language="en-us" Value="Eye lids upper DownUp" />
+    <Resource Language="pt-br" Value="Palpebras superiores"/>
+    <Resource Language="es-es" Value="Párpados superiores"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLEyelidsUpperDownUpL">
+    <Resource Language="en-us" Value="Eye lids upper DownUp L" />
+    <Resource Language="pt-br" Value="Palpebras superiores L"/>
+    <Resource Language="es-es" Value="Párpados superiores L"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLEyelidsUpperDownUpR">
+    <Resource Language="en-us" Value="Eye lids upper DownUp R" />
+    <Resource Language="pt-br" Value="Palpebras superiores R"/>
+    <Resource Language="es-es" Value="Párpados superiores R"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLEyesSquint">
+    <Resource Language="en-us" Value="Eyes Squint" />
+    <Resource Language="pt-br" Value="Estrabismo"/>
+    <Resource Language="es-es" Value="Estrabismo"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLEyesSquintL">
+    <Resource Language="en-us" Value="Eyes Squint L" />
+    <Resource Language="pt-br" Value="Estrabismo L"/>
+    <Resource Language="es-es" Value="Estrabismo L"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLEyesSquintR">
+    <Resource Language="en-us" Value="Eyes Squint" />
+    <Resource Language="pt-br" Value="Estrabismo"/>
+    <Resource Language="es-es" Value="Estrabismo"/>
+  </ResourceGroup>
+  <ResourceGroup Key="Eye_Sag_Top">
+    <Resource Language="en-us" Value="Eye sag top" />
+    <Resource Language="pt-br" Value="Olheiras superiores"/>
+    <Resource Language="es-es" Value="Ojeras superiores"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMFaceCenterDepth">
+    <Resource Language="en-us" Value="Face center depth" />
+    <Resource Language="pt-br" Value="Profundidade do centro da face"/>
+    <Resource Language="es-es" Value="Profundidad del centro de la cara"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMFaceFlat">
+    <Resource Language="en-us" Value="Face flat" />
+    <Resource Language="pt-br" Value="Face chata"/>
+    <Resource Language="es-es" Value="Cara plana"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMFaceHeart">
+    <Resource Language="en-us" Value="Face heart" />
+    <Resource Language="pt-br" Value="Maçã do rosto"/>
+    <Resource Language="es-es" Value="Corazon de la cara"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMFaceRound">
+    <Resource Language="en-us" Value="Face round" />
+    <Resource Language="pt-br" Value="Rosto Redondo"/>
+    <Resource Language="es-es" Value="Cara redonda"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMFaceSquare">
+    <Resource Language="en-us" Value="Face square" />
+    <Resource Language="pt-br" Value="Face quadrada"/>
+    <Resource Language="es-es" Value="Cara quadrada"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLBrowInnerUp_Down">
+    <Resource Language="en-us" Value="Brow inner UpDown" />
+    <Resource Language="pt-br" Value="Testa interna"/>
+    <Resource Language="es-es" Value="Frente interna"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLBrowInnerUp_DownL">
+     <Resource Language="en-us" Value="Brow inner UpDown L" />
+    <Resource Language="pt-br" Value="Testa interna L"/>
+    <Resource Language="es-es" Value="Frente interna L"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLBrowInnerUp_DownR">
+    <Resource Language="en-us" Value="Brow inner UpDown R" />
+    <Resource Language="pt-br" Value="Testa interna R"/>
+    <Resource Language="es-es" Value="Frente interna R"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLBrowOuterUp_Down">
+    <Resource Language="en-us" Value="Brow outer UpDown" />
+    <Resource Language="pt-br" Value="Testa externa"/>
+    <Resource Language="es-es" Value="Frente externa"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLBrowOuterUp_DownL">
+    <Resource Language="en-us" Value="Brow outer UpDown L" />
+    <Resource Language="pt-br" Value="Testa externa L"/>
+    <Resource Language="es-es" Value="Frente externa L"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLBrowOuterUp_DownR">
+    <Resource Language="en-us" Value="Brow outer UpDown R" />
+    <Resource Language="pt-br" Value="Testa externa R"/>
+    <Resource Language="es-es" Value="Frente externa R"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLBrowUp_Down">
+    <Resource Language="en-us" Value="Brow UpDown" />
+    <Resource Language="pt-br" Value="Testa"/>
+    <Resource Language="es-es" Value="Frente"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLBrowUp_DownL">
+    <Resource Language="en-us" Value="Brow UpDown L" />
+    <Resource Language="pt-br" Value="Testa L"/>
+    <Resource Language="es-es" Value="Frente L"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLBrowUp_DownR">
+    <Resource Language="en-us" Value="Brow UpDown R" />
+    <Resource Language="pt-br" Value="Testa R"/>
+    <Resource Language="es-es" Value="Frente R"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMCheekbonesDepressionHD">
+    <Resource Language="en-us" Value="Cheek bones depression" />
+    <Resource Language="pt-br" Value="Depressão nos ossos da face"/>
+    <Resource Language="es-es" Value="Depresión en los huesos de la cara"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMCheeksDepth">
+    <Resource Language="en-us" Value="Cheeks depth" />
+    <Resource Language="pt-br" Value="Profundidade das bochechas"/>
+    <Resource Language="es-es" Value="Profundidade de las mejillas"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMChinCleftHD">
+    <Resource Language="en-us" Value="Chin cleft" />
+    <Resource Language="pt-br" Value="Covinha no queixo"/>
+    <Resource Language="es-es" Value="Hendidura de la barbilla"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMChinWidth">
+    <Resource Language="en-us" Value="Chin cleft Width" />
+    <Resource Language="pt-br" Value="Tamaño da fenda"/>
+    <Resource Language="es-es" Value="Tamaño de la hendidura"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLLipsPart">
+    <Resource Language="en-us" Value="Lips part" />
+    <Resource Language="pt-br" Value="Lábios"/>
+    <Resource Language="es-es" Value="Labios"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLLipsPartCenter">
+    <Resource Language="en-us" Value="Lips part center" />
+    <Resource Language="pt-br" Value="Centro dos labios"/>
+    <Resource Language="es-es" Value="Centro de los labios"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLLipsPucker">
+    <Resource Language="en-us" Value="Lips pucker" />
+    <Resource Language="pt-br" Value="Lábios franzidos"/>
+    <Resource Language="es-es" Value="Labios fruncidos"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLLipTopUp_Down">
+    <Resource Language="en-us" Value="Lip Top UpDown" />
+    <Resource Language="pt-br" Value="Lábio superior"/>
+    <Resource Language="es-es" Value="Labio superior"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLLipTopUp_DownL">
+     <Resource Language="en-us" Value="Lip Top UpDown L" />
+    <Resource Language="pt-br" Value="Lábio superior L"/>
+    <Resource Language="es-es" Value="Labio superior L"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLLipTopUp_DownR">
+    <Resource Language="en-us" Value="Lip Top UpDown R" />
+    <Resource Language="pt-br" Value="Lábio superior R"/>
+    <Resource Language="es-es" Value="Labio superior R"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLMouthCornerUp_Down">
+    <Resource Language="en-us" Value="Mouth corner UpDown" />
+    <Resource Language="pt-br" Value="Canto da boca"/>
+    <Resource Language="es-es" Value="Comisura de la boca"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLMouthFrown">
+    <Resource Language="en-us" Value="Mouth frown" />
+    <Resource Language="pt-br" Value="Boca franzida"/>
+    <Resource Language="es-es" Value="Boca fruncida"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLMouthNarrow">
+    <Resource Language="en-us" Value="Mouth Narrow" />
+    <Resource Language="pt-br" Value="Boca estreita"/>
+    <Resource Language="es-es" Value="Boca cerca"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLMouthNarrowL">
+    <Resource Language="en-us" Value="Mouth Narrow L" />
+    <Resource Language="pt-br" Value="Boca estreita L"/>
+    <Resource Language="es-es" Value="Boca cerca L"/>
+  </ResourceGroup>
+  <ResourceGroup Key="eCTRLMouthNarrowR">
+    <Resource Language="en-us" Value="Mouth Narrow R" />
+    <Resource Language="pt-br" Value="Boca estreita R"/>
+    <Resource Language="es-es" Value="Boca cerca R"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMMouthCurves">
+    <Resource Language="en-us" Value="Mouth curves" />
+    <Resource Language="pt-br" Value="Curvas da boca"/>
+    <Resource Language="es-es" Value="Curvas de la boca"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMMouthHeight">
+    <Resource Language="en-us" Value="Mouth height" />
+    <Resource Language="pt-br" Value="Altura da boca"/>
+    <Resource Language="es-es" Value="Altura de la boca"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMMouthSize">
+    <Resource Language="en-us" Value="Mouth size" />
+    <Resource Language="pt-br" Value="Tamanho da boca"/>
+    <Resource Language="es-es" Value="Tamaño de la boca"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMMouthWidth">
+    <Resource Language="en-us" Value="Mouth width" />
+    <Resource Language="pt-br" Value="Largura da boca"/>
+    <Resource Language="es-es" Value="Ancho de la boca"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMLipDepthLower">
+    <Resource Language="en-us" Value="Lip depth lower" />
+    <Resource Language="pt-br" Value="Profundidade do labio inferior"/>
+    <Resource Language="es-es" Value="Profundidad del labio inferior"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMLipsHeart">
+    <Resource Language="en-us" Value="Lips heart" />
+    <Resource Language="pt-br" Value="Maçã dos lábios"/>
+    <Resource Language="es-es" Value="Corazion del lábios"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMLipsSquare">
+    <Resource Language="en-us" Value="Lips square" />
+    <Resource Language="pt-br" Value="Lábios quadrados"/>
+    <Resource Language="es-es" Value="Lábios quadrados"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMLipUpperSize">
+    <Resource Language="en-us" Value="Lip upper size" />
+    <Resource Language="pt-br" Value="Tamanho dos lábios superiores"/>
+    <Resource Language="es-es" Value="Tamaño del labios superiores"/>
+  </ResourceGroup>
+  <ResourceGroup Key="Nose_Age">
+    <Resource Language="en-us" Value="Nose Age" />
+    <Resource Language="pt-br" Value="Idade do nariz"/>
+    <Resource Language="es-es" Value="Edad del nariz"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMNoseBridgeDepth">
+    <Resource Language="en-us" Value="Nose bridge depth" />
+    <Resource Language="pt-br" Value="Profundidade debaixo do nariz"/>
+    <Resource Language="es-es" Value="Profundidad de abajo del nariz"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMNoseBridgeHeight">
+    <Resource Language="en-us" Value="Nose bridge height" />
+    <Resource Language="pt-br" Value="Altura debaixo do nariz"/>
+    <Resource Language="es-es" Value="Altura de abajo del nariz"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMNoseBridgeSkew">
+    <Resource Language="en-us" Value="Nose bridge skew" />
+    <Resource Language="pt-br" Value="Inclinação da ponte do nariz"/>
+    <Resource Language="es-es" Value="Inclinación de la ponte del nariz"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMNoseBridgeSlope">
+    <Resource Language="en-us" Value="Nose bridge slope" />
+    <Resource Language="pt-br" Value="Encosta da ponte do nariz"/>
+    <Resource Language="es-es" Value="Pendiente de la ponte del nariz"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMNoseBump">
+    <Resource Language="en-us" Value="Nose bump" />
+    <Resource Language="pt-br" Value="Protuberancia no nariz"/>
+    <Resource Language="es-es" Value="Protuberancia no nariz"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMNoseDepth">
+    <Resource Language="en-us" Value="Nose depth" />
+    <Resource Language="pt-br" Value="Profundidade do nariz"/>
+    <Resource Language="es-es" Value="Profundidad del nariz"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMNoseHeight">
+    <Resource Language="en-us" Value="Nose height" />
+    <Resource Language="pt-br" Value="Altura do nariz"/>
+    <Resource Language="es-es" Value="Altura do nariz"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMNosePinch">
+    <Resource Language="en-us" Value="Nose pinch" />
+    <Resource Language="pt-br" Value="Achatamento lateral do nariz"/>
+    <Resource Language="es-es" Value="Aplanamiento lateral del nariz"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMNoseRidgeWidth">
+    <Resource Language="en-us" Value="Nose ridge width" />
+    <Resource Language="pt-br" Value="Largura da ponta do nariz"/>
+    <Resource Language="es-es" Value="Ancho de la punta del nariz"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMNoseSize">
+    <Resource Language="en-us" Value="Nose size" />
+    <Resource Language="pt-br" Value="Tamanho do nariz"/>
+    <Resource Language="es-es" Value="Tamaño del nariz"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMNoseTipHeight">
+    <Resource Language="en-us" Value="Nose tip height" />
+    <Resource Language="pt-br" Value="Altura da ponta do nariz"/>
+    <Resource Language="es-es" Value="Altura de la punta del nariz"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMNoseTipRound">
+    <Resource Language="en-us" Value="Nose tip round" />
+    <Resource Language="pt-br" Value="Ponta do nariz arredondada"/>
+    <Resource Language="es-es" Value="Punta del nariz redondeado"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMNoseWidth">
+    <Resource Language="en-us" Value="Nose width" />
+    <Resource Language="pt-br" Value="Largura do nariz"/>
+    <Resource Language="es-es" Value="Ancho del nariz"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMNostrilWingSize">
+    <Resource Language="en-us" Value="Nostril wing size" />
+    <Resource Language="pt-br" Value="Tamanho da narina"/>
+    <Resource Language="es-es" Value="Tamaño de ventana de la nariz"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PHMNostrilWingWidth">
+    <Resource Language="en-us" Value="Nostril wing width" />
+    <Resource Language="pt-br" Value="Largura da narina"/>
+    <Resource Language="es-es" Value="Ancho de la ventana de la nariz"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PBMUpperArmsSize">
+    <Resource Language="en-us" Value="Upper arms size" />
+    <Resource Language="pt-br" Value="Tamanho dos braços"/>
+    <Resource Language="es-es" Value="Tamaño de los brazos"/>
+  </ResourceGroup>
+  <ResourceGroup Key="SCLArmsLength">
+    <Resource Language="en-us" Value="Arms length" />
+    <Resource Language="pt-br" Value="Comprimento dos braços"/>
+    <Resource Language="es-es" Value="Longitud de los brazos"/>
+  </ResourceGroup>
+  <ResourceGroup Key="SCLFingersLength">
+    <Resource Language="en-us" Value="Fingers length" />
+    <Resource Language="pt-br" Value="Comprimento dos dedos"/>
+    <Resource Language="es-es" Value="Longitud de los dedos"/>
+  </ResourceGroup>
+  <ResourceGroup Key="SCLFingersLengthL">
+    <Resource Language="en-us" Value="Fingers Length L" />
+    <Resource Language="pt-br" Value="Comprimento dos dedos L"/>
+    <Resource Language="es-es" Value="Longitud de los dedos L"/>
+  </ResourceGroup>
+  <ResourceGroup Key="SCLFingersLengthR">
+    <Resource Language="en-us" Value="Fingers Length R" />
+    <Resource Language="pt-br" Value="Comprimento dos dedos R"/>
+    <Resource Language="es-es" Value="Longitud de los dedos R"/>
+  </ResourceGroup>
+  <ResourceGroup Key="SCLFingersWidth">
+    <Resource Language="en-us" Value="Fingers width" />
+    <Resource Language="pt-br" Value="Largura dos dedos"/>
+    <Resource Language="es-es" Value="Anchos de los dedos"/>
+  </ResourceGroup>
+  <ResourceGroup Key="SCLFingersWidthL">
+    <Resource Language="en-us" Value="Fingers width L" />
+    <Resource Language="pt-br" Value="Largura dos dedos L"/>
+    <Resource Language="es-es" Value="Anchos de los dedos L"/>
+  </ResourceGroup>
+  <ResourceGroup Key="SCLFingersWidthR">
+    <Resource Language="en-us" Value="Fingers width R" />
+    <Resource Language="pt-br" Value="Largura dos dedos R"/>
+    <Resource Language="es-es" Value="Anchos de los dedos R"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PBMForearmsSize">
+    <Resource Language="en-us" Value="Forearms size" />
+    <Resource Language="pt-br" Value="Tamanho dos antebraços"/>
+    <Resource Language="es-es" Value="Tamaño de los antebrazos"/>
+  </ResourceGroup>
+  <ResourceGroup Key="SCLPalmScale">
+    <Resource Language="en-us" Value="Palm scale" />
+    <Resource Language="pt-br" Value="Tamanho da palma"/>
+    <Resource Language="es-es" Value="Tamaño de la palma"/>
+  </ResourceGroup>
+  <ResourceGroup Key="SCLPalmScaleL">
+    <Resource Language="en-us" Value="Palm scale L" />
+    <Resource Language="pt-br" Value="Tamanho da palma L"/>
+    <Resource Language="es-es" Value="Tamaño de la palma L"/>
+  </ResourceGroup>
+  <ResourceGroup Key="SCLPalmScaleR">
+    <Resource Language="en-us" Value="Palm scale R" />
+    <Resource Language="pt-br" Value="Tamanho da palma R"/>
+    <Resource Language="es-es" Value="Tamaño de la palma R"/>
+  </ResourceGroup>
+  <ResourceGroup Key="Basic_Weight_1">
+    <Resource Language="en-us" Value="Basic weight 1" />
+    <Resource Language="pt-br" Value="Peso base 1"/>
+    <Resource Language="es-es" Value="Gramaje 1"/>
+  </ResourceGroup>
+  <ResourceGroup Key="FBMBodybuilderSize">
+    <Resource Language="en-us" Value="Bodybuilder size" />
+    <Resource Language="pt-br" Value="Tamanho bodybuilder"/>
+    <Resource Language="es-es" Value="Tamaño bodybuilder"/>
+  </ResourceGroup>
+  <ResourceGroup Key="FBMBodybuilderDetails">
+    <Resource Language="en-us" Value="Bodybuilder details" />
+    <Resource Language="pt-br" Value="Detalhes bodybuilder"/>
+    <Resource Language="es-es" Value="Detalles bodybuilder"/>
+  </ResourceGroup>
+  <ResourceGroup Key="FBMFitnessSize">
+    <Resource Language="en-us" Value="Fitness size" />
+    <Resource Language="pt-br" Value="Tamanho fitness"/>
+    <Resource Language="es-es" Value="Tamaño fitness"/>
+  </ResourceGroup>
+  <ResourceGroup Key="FBMFitnessDetails">
+    <Resource Language="en-us" Value="Fitness details" />
+    <Resource Language="pt-br" Value="Detalhes fitness"/>
+    <Resource Language="es-es" Value="Detalles fitness"/>
+  </ResourceGroup>
+  <ResourceGroup Key="Neck_Weight">
+    <Resource Language="en-us" Value="Neck weight" />
+    <Resource Language="pt-br" Value="Peso do pescoço"/>
+    <Resource Language="es-es" Value="Cuello peso"/>
+  </ResourceGroup>
+  <ResourceGroup Key="SCLNeckLength">
+    <Resource Language="en-us" Value="Neck length" />
+    <Resource Language="pt-br" Value="Comprimento do pescoço"/>
+    <Resource Language="es-es" Value="Longitud del cuello"/>
+  </ResourceGroup>
+  <ResourceGroup Key="SCLNeckLength">
+    <Resource Language="en-us" Value="Neck length" />
+    <Resource Language="pt-br" Value="Comprimento do pescoço"/>
+    <Resource Language="es-es" Value="Longitud del cuello"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PBMNeckSize">
+    <Resource Language="en-us" Value="Neck size" />
+    <Resource Language="pt-br" Value="Tamanho do pescoço"/>
+    <Resource Language="es-es" Value="Tamaño del cuello"/>
+  </ResourceGroup>
+  <ResourceGroup Key="SCLChestDepth">
+    <Resource Language="en-us" Value="Chest depth" />
+    <Resource Language="pt-br" Value="Profundidade do peito"/>
+    <Resource Language="es-es" Value="Profundidad del pecho"/>
+  </ResourceGroup>
+  <ResourceGroup Key="SCLChestWidth">
+    <Resource Language="en-us" Value="Chest width" />
+    <Resource Language="pt-br" Value="Largura do peito"/>
+    <Resource Language="es-es" Value="Ancho del pecho"/>
+  </ResourceGroup>
+  <ResourceGroup Key="SCLShldrsScale">
+    <Resource Language="en-us" Value="Shoulders scale" />
+    <Resource Language="pt-br" Value="Tamanho dos ombros"/>
+    <Resource Language="es-es" Value="Tamaño del hombro"/>
+  </ResourceGroup>
+  <ResourceGroup Key="SCLShldrsWidth">
+    <Resource Language="en-us" Value="Shoulders width" />
+    <Resource Language="pt-br" Value="Largura dos ombros"/>
+    <Resource Language="es-es" Value="Ancho del hombro"/>
+  </ResourceGroup>
+  <ResourceGroup Key="Shoulder_Drop">
+    <Resource Language="en-us" Value="Shoulder drop" />
+    <Resource Language="pt-br" Value="Queda nos ombros"/>
+    <Resource Language="es-es" Value="Racaer de los ombros"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PBMShouldersSize">
+    <Resource Language="en-us" Value="Shoulders size" />
+    <Resource Language="pt-br" Value="Tamanho dos ombros"/>
+    <Resource Language="es-es" Value="Tamaño de los hombros"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PBMPectoralsCleavage">
+    <Resource Language="en-us" Value="Pectorals cleaverage" />
+    <Resource Language="pt-br" Value="Clivagem peitoral"/>
+    <Resource Language="es-es" Value="Hendidura pectoral"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PBMPectoralsDiameter">
+    <Resource Language="en-us" Value="Pectoral diameter" />
+    <Resource Language="pt-br" Value="Diametro peitoral"/>
+    <Resource Language="es-es" Value="Diametro pectoral"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PBMPectoralsHeavy">
+    <Resource Language="en-us" Value="Heavy Pectorals" />
+    <Resource Language="pt-br" Value="Peitoral pesado"/>
+    <Resource Language="es-es" Value="Intenso en el pecho"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PBMPectoralsSag">
+    <Resource Language="en-us" Value="Sag pectoral" />
+    <Resource Language="pt-br" Value="Depressão peitoral"/>
+    <Resource Language="es-es" Value="Depressión pectoral"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PBMRibcageSize">
+    <Resource Language="en-us" Value="Rib cage" />
+    <Resource Language="pt-br" Value="Caixa toráxica"/>
+    <Resource Language="es-es" Value="Caja torácica"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PBMSternumDepth">
+    <Resource Language="en-us" Value="Sternum depth" />
+    <Resource Language="pt-br" Value="Profundidade do esterno"/>
+    <Resource Language="es-es" Value="Profundidad del esternón"/>
+  </ResourceGroup>
+  <ResourceGroup Key="G2M_PBMBelly">
+    <Resource Language="en-us" Value="Belly" />
+    <Resource Language="pt-br" Value="Barriga"/>
+    <Resource Language="es-es" Value="Vientre"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PBMStomachLowerDepth">
+    <Resource Language="en-us" Value="Lower Stomatch depth" />
+    <Resource Language="pt-br" Value="Profundidade do estômago inferior"/>
+    <Resource Language="es-es" Value="Profundidad del estómago inferior"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PBMThighsSize">
+    <Resource Language="en-us" Value="Thighs size" />
+    <Resource Language="pt-br" Value="Tamanho das coxas"/>
+    <Resource Language="es-es" Value="Tamaño del muslos"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PBMCalvesSize">
+    <Resource Language="en-us" Value="Calves size" />
+    <Resource Language="pt-br" Value="Batata da perna"/>
+    <Resource Language="es-es" Value="Ternero"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PBMGlutesSize">
+    <Resource Language="en-us" Value="Glutes size" />
+    <Resource Language="pt-br" Value="Tamanho das nádegas"/>
+    <Resource Language="es-es" Value="Tamaños de la nalgas"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PBMLegsLength">
+    <Resource Language="en-us" Value="Legs length" />
+    <Resource Language="pt-br" Value="Comprimento das pernas"/>
+    <Resource Language="es-es" Value="Longitud de las piernas"/>
+  </ResourceGroup>
+  <ResourceGroup Key="PBMShinsSize">
+    <Resource Language="en-us" Value="Shins size" />
+    <Resource Language="pt-br" Value="Tamanho das canelas"/>
+    <Resource Language="es-es" Value="Tamaño de la espinilla"/>
+  </ResourceGroup>
+</ResourceDictionary>

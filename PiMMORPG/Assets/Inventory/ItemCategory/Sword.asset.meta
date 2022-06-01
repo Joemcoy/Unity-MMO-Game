@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: cdcb5c47fd93e2146a15c578d103b3f9
+labels:
+- ItemCategory
+timeCreated: 1511882924
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: inventory/categories/sword
+  assetBundleVariant: 

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 7806416d074c35744b15180239c64d86
+labels:
+- InventoryProPrefab
+timeCreated: 1512144001
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: inventory/items/wooden_two-handed_sword
+  assetBundleVariant: 

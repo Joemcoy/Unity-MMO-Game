@@ -1,0 +1,13 @@
+﻿<MenuView>
+  <Region Alignment="Bottom">
+    <Group Alignment="Bottom" Orientation="Vertical" Spacing="0.5px">
+      <Group Alignment="Bottom" Spacing="1.25px" Orientation="Horizontal" Margin="0,0,0,0px" BackgroundColor="#33000000">
+        <Button Text="{@Localization.Login}" Click="SwitchToLogin" />
+        <Button Text="{@Localization.Settings}" Click="SwitchToSettings" />
+        <Button Text="{@Localization.About}" />
+        <Button Text="{@Localization.Quit}" Click="Quit" />
+      </Group>
+      <Label Text="PiMMORPG - 4FunGames - {@Localization.Rights}" TextAlignment="Center" />
+    </Group>
+  </Region>
+</MenuView>

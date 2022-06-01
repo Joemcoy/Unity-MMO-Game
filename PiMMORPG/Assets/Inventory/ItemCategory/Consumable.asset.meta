@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: d28afb965f56c4b42b57072e53d67cb9
+labels:
+- ItemCategory
+timeCreated: 1507084711
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: inventory/categories/consumable
+  assetBundleVariant: 

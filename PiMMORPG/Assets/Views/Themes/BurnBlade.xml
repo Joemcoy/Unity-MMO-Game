@@ -1,0 +1,77 @@
+﻿<Theme Name="BurnBlade" BaseDirectory="Assets/Images/Burnblade UI/">
+  <Label Font="Fonts/Roboto-Bold.ttf" FontSize="16" FontColor="#ffffff" Width="200" Height="50" />
+  <Label Style="ShowcaseHeader"  FontSize="26" FontColor="#ffffff" />
+  <Label Style="ShowcaseDescription"  FontSize="12" FontColor="#ffffff" />
+
+  <Button FontSize="18" BackgroundImage="Actions Bar/button_orange.png" FontColor="#dddddd" FontStyle="Normal" Highlighted-BackgroundImage="Actions Bar/button_orange-HOVER.png"
+          Pressed-BackgroundImage="Actions Bar/button_orange-PUSH.png" Highlighted-FontColor="#cccccc" Pressed-FontColor="#ffffff" Height="50px"
+          Disabled-FontStyle="Italic" Disabled-FontColor="Gray80" Disabled-BackgroundImage="Actions Bar/button_gray.png" />
+
+  <CheckBox CheckBoxImage="Form Elements/checkbox_empty.png" Checked-CheckBoxImage="Form Elements/checkbox_selected.png" CheckBoxWidth="25" CheckBoxHeight="25" Height="15"
+        CheckBoxColor="#ffffff"  FontSize="12" FontStyle="Normal" FontColor="#ffffff" Spacing="10px"
+        Disabled-FontStyle="Italic" Disabled-FontColor="Gray80" />
+
+  <RadioButton RadioButtonImage="Form Elements/radio_empty.png" Checked-RadioButtonImage="Form Elements/radio_selected.png" RadioButtonWidth="19" RadioButtonHeight="19" Height="25"
+      RadioButtonColor="#ffffff" RadioButtonOffset="0,1,0,0"  FontSize="12" FontColor="#ffffff" FontStyle="Normal" Spacing="10px"
+      Disabled-FontStyle="Italic" Disabled-FontColor="Gray80" />
+
+  <Image Style="ShowcaseButtonContent" Sprite="Sprites/RainbowSquare.psd" Width="20" Height="20" Offset="10,0,0,0" Alignment="Left" />
+  <Image Style="ShowcaseImage" Sprite="Sprites/RainbowSquare.psd" Width="400" Height="400" />
+  <Region Style="Container" BackgroundImage="Login/login_container.png"  />
+
+  <Frame Style="Window" BackgroundColor="Gray80" />
+  <Frame Style="ShowcaseGroup" BackgroundColor="#7d7d7d" ContentMargin="5px" />
+  <Frame Style="ShowcasePanel" BackgroundColor="#252931" Alignment="Top" />
+
+  <Region Style="ShowcaseListRegion" Margin="5px" BackgroundColor="#7d7d7d" />
+  <Region Style="Window" BackgroundColor="Gray80" />
+  <Region Style="DefaultBackgroundRegion" BackgroundColor="#131419" />
+
+  <HyperLink FontColor="#8cade3" Highlighted-FontColor="#c7dafb" Pressed-FontColor="#514C49"  FontSize="12" Width="200" Height="50" />
+
+  <InputField  BackgroundImage="Login/login_text_input.png" FontSize="12" FontColor="#cccccc" 
+               Width="400px" Height="50px" TextAlignment="Left" TextMargin="15px,0px,10px,0px" 
+               SelectionColor="#514C49" CaretWidth="2" />
+
+  <Slider SliderFillColor="#514C49" SliderHandleColor="#f8f6f3" SliderBackgroundColor="#626262" Breadth="12" SliderHandleLength="11" SliderHandleBreadth="22"/>
+
+  <Panel HorizontalScrollbarBreadth="10" VerticalScrollbarBreadth="10"
+       HorizontalScrollbarColor="#000000" VerticalScrollbarColor="#000000"
+       HorizontalScrollbarHandleColor="#514C49" VerticalScrollbarHandleColor="#514C49" />
+
+  <Window TitleRegionWidth="100%" TitleRegionHeight="50px" TitleRegionColor="#514C49" WindowColor="#252931" TitleFontColor="#ffffff"
+        CloseButtonColor="#ffffff"
+        CloseButtonAlignment="TopRight"
+        CloseButtonImage="Sprites/CloseButton.psd" CloseButtonImageType="Simple"
+        Highlighted--CloseButtonColor="#626262" Pressed--CloseButtonColor="#000000"
+        CloseButtonOffset="0,19px,16px,0" CloseButtonWidth="11" CloseButtonHeight="12"
+        TitleAlignment="Left" TitleOffset="26px,0,0,0" />
+
+  <List BackgroundColor="White" ContentMargin="2" />
+  <ListItem Breadth="50" TextMargin="10,0,10,0" TextAlignment="Left" BackgroundColor="White"
+            Selected-BackgroundColor="#514C49" Highlighted-BackgroundColor="Gray90" Pressed-BackgroundColor="#514C49"
+            Disabled-FontStyle="Italic" Disabled-FontColor="Gray60"
+             FontSize="12" FontColor="#000000"
+            Alternate-BackgroundColor="Gray95" />
+
+  <TabPanel TabContentColor="#514C49" TabListContentMargin="0" TabListColor="Clear" />
+  <TabHeader Breadth="50" TextPadding="20,10,20,10" TextAlignment="Center" BackgroundColor="#413C39"
+             Selected-BackgroundColor="#514C49" Highlighted-BackgroundColor="#716C69" Pressed-BackgroundColor="#312C29"
+             Font="Fonts/Roboto-Bold.ttf" FontSize="12" FontColor="#ffffff" AdjustToText="Width" />
+
+  <ComboBox   Width="300" ButtonMargin="88.5%,15%,3.5%,15%" ButtonFont="Fonts/Roboto-Regular.ttf" ButtonFontSize="18" ButtonFontColor="#ddd"
+              ButtonTextAlignment="Left" ButtonTextMargin="-245px,0px,0px,0px" ButtonImage="Form Elements/select_dropdown_button.png"
+              Highlighted--ButtonImage="Form elements/select_dropdown_button-HOVER.png"
+              Pressed--ButtonFontColor="#999" Highlighted--ButtonFontColor="#aaa" BackgroundImage="Form Elements/select_dropdown_container.png" ButtonImageType="Sliced"
+              ButtonColor="#ffffff" Pressed--ButtonImage="Form Elements/select_dropdown_button-HOVER.png" Highlighted--ButtonColor="#dddddd" Pressed--ButtonColor="#eeeeee"
+              ListColor="#ffffff" ListMargin="15px,0,15px,0" ListContentMargin="0" Height="40px" />
+  <ComboBoxItem Breadth="25px" Font="Fonts/Roboto-Regular.ttf" FontSize="18" FontColor="#CCC" TextMargin="10,0,10,0" TextAlignment="Left"
+                BackgroundColor="#514C49" Selected-BackgroundColor="#514C49" Highlighted-BackgroundColor="#716C69" Pressed-BackgroundColor="#312C29" />
+
+  <DataGrid BackgroundColor="#514C49" ColumnTextMargin="10,0,10,0" ColumnTextAlignment="Left" ListColor="#CCC" ListMaskColor="#CCC" DataGridList.VerticalScrollbarVisibility="Permanent" />
+  <RowHeader Height="30" BackgroundColor="#514C49" />
+  <ColumnHeader Font="Fonts/Roboto-Bold.ttf" FontSize="12" />
+  <Row Breadth="30" BackgroundColor="#CCC" Selected-BackgroundColor="#CFC7C2" Highlighted-BackgroundColor="Gray90" Pressed-BackgroundColor="#514C49"
+       Alternate-BackgroundColor="Gray95" />
+  <Column  FontSize="12" FontColor="#111" />
+</Theme>

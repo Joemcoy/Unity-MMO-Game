@@ -1,0 +1,21 @@
+﻿<LoginView Status="Preencha os campos abaixo..."> 
+  <Region Style="Container" Height="400px" Width="600px" Alignment="Center">
+    <Group Alignment="Center" Spacing="10px">
+      <Label Text="{Status}" TextAlignment="Center" />
+      <Group Orientation="Horizontal" Spacing="10px">
+        <Label Text="Nome de usuário" Width="150px" />
+        <InputField Width="300px" Id="txtUsername" Text="{Username}" />
+      </Group>
+      <Group Orientation="Horizontal" Spacing="10px">
+        <Label Text="Senha" Width="150px" />
+        <InputField Width="300px" InputType="Password" Id="txtPassword" Text="{Password}" />
+      </Group>
+      <CheckBox Text="Lembrar" Id="cbRememberLogin" />
+
+      <Group Orientation="Horizontal" Spacing="10px">
+        <Button Text="Login" Click="CallLogin" />
+        <Button Text="Voltar" Click="SwitchToMenu" />
+      </Group>
+    </Group>
+  </Region>
+</LoginView>

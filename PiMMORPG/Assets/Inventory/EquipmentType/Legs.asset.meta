@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: b32f4db07fba3424f831b7e2fa239779
+labels:
+- EquipmentType
+timeCreated: 1507941922
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: inventory/equiptypes/legs
+  assetBundleVariant: 

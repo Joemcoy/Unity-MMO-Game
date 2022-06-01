@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 38e29f9f90e6b2e4588f73fef3dea712
+labels:
+- InventoryProPrefab
+timeCreated: 1508507736
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: inventory/items/clan_defender_top
+  assetBundleVariant: 

@@ -1,0 +1,78 @@
+﻿<SettingsView ResolutionString="Carregando..." QualityString="Carregando...">
+  <Region Style="Container" Height="400px" Width="600px" Alignment="Center">
+    <Group Alignment="Center" Spacing="20">
+      <TabPanel Width="80%" Height="200px">
+        <Tab Text="Vídeo">
+          <TabHeader />
+
+          <Group Alignment="Center">
+            <Group Orientation="Horizontal" Spacing="10px">
+              <Label Text="Tela cheia" Width="150px"  TextAlignment="Center" />
+              <CheckBox IsChecked="{FullScreen}" Width="300px" />
+            </Group>
+            <Group Orientation="Horizontal" Spacing="10px">
+              <Label Text="Resolução" Width="150px"  TextAlignment="Center" />
+              <Slider Width="150px" Id="slResolutions" Value="{Resolutions.SelectedIndex}" Min="0" Max="{=MaxResolutions}" ValueChanged="ResolutionChanged" />
+              <Label Text="{=ResolutionString}" Width="150px" TextAlignment="Center" />>
+            </Group>
+            <Group Orientation="Horizontal" Spacing="10px">
+              <Label Text="Nível de qualidade" Width="150px"  TextAlignment="Center" />
+              <Slider Width="150px" Id="slQualities" Value="{Qualities.SelectedIndex}" Min="0" Max="{=MaxQualities}" ValueChanged="QualityChanged" />
+              <Label Text="{=QualityString}" Width="150px" TextAlignment="Right" />
+            </Group>
+          </Group>
+        </Tab>
+        <Tab Text="Efeitos">
+          <TabHeader />
+
+          <Group Alignment="Center" Spacing="10px" Margin="10px">
+            <Group Orientation="Horizontal" Spacing="50px" Alignment="Left">
+              <CheckBox Width="150px" Text="Antialiasing" IsChecked="{AntiAliasing}" />
+              <CheckBox Width="150px" Text="Bloom" IsChecked="{Bloom}" />
+              <CheckBox Width="150px" Text="Fog" IsChecked="{Fog}" />
+            </Group>
+            <Group Orientation="Horizontal" Spacing="50px" Alignment="Right">
+              <CheckBox Width="150px" Text="Ambient occlusion" IsChecked="{AmbientOcclusion}" />
+              <CheckBox Width="150px" Text="Depth of Field"  IsChecked="{DepthOfField}" />
+              <CheckBox Width="150px" Text="Motion Blur" IsChecked="{MotionBlur}" />
+            </Group>
+
+            <Group Orientation="Horizontal" Spacing="50px" Alignment="Left">
+              <CheckBox Width="150px" Text="Color Grading" IsChecked="{ColorGrading}" />
+              <CheckBox Width="150px" Text="Chromatic Aberration" IsChecked="{ChromaticAberration}" />
+              <CheckBox Width="150px" Text="User Lut" IsChecked="{UserLut}" />
+            </Group>
+
+            <Group Orientation="Horizontal" Spacing="50px" Alignment="Left">
+              <CheckBox Width="150px" Text="Eye Adaptation" IsChecked="{EyeAdaption}"  />
+              <CheckBox Width="150px" Text="Screen space reflection" IsChecked="{ScreenSpaceReflection}"  />
+            </Group>
+          </Group>
+        </Tab>
+        <Tab Text="Audio">
+          <TabHeader />
+
+          <Group Alignment="Center" Spacing="10px">
+            <Group Orientation="Horizontal" Spacing="10px">
+              <Label Text="Volume das músicas" Width="150px"  TextAlignment="Center" />
+              <Slider Width="150px" Id="slResolutions" Value="0" Min="0" Max="100" />
+              <Label Text="0%" Width="150px" TextAlignment="Center" />
+            </Group>
+            <Group Orientation="Horizontal" Spacing="10px">
+              <Label Text="Volume geral" Width="150px"  TextAlignment="Center" />
+              <Slider Width="150px" Id="slResolutions" Value="0" Min="0" Max="100" />
+              <Label Text="0%" Width="150px" TextAlignment="Center" />
+            </Group>
+          </Group>
+        </Tab>
+        <Tab Text="Controles" IsActive="False">
+          <TabHeader />
+        </Tab>
+      </TabPanel>
+      <Group Alignment="Center" Orientation="Horizontal" Height="50px">
+        <Button Text="Aplicar" Click="ApplySettings" />
+        <Button Text="Voltar" Click="SwitchToMenu" />
+      </Group>
+    </Group>
+  </Region>
+</SettingsView>

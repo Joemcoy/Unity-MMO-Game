@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: a5e4a5b2541fa094a8bd4cb12376d5e5
+labels:
+- CurrencyDefinition
+timeCreated: 1507310942
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: inventory/currencies/copper
+  assetBundleVariant: 

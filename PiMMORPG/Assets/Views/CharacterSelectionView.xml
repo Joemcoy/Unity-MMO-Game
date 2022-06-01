@@ -1,0 +1,21 @@
+﻿<CharacterSelectionView xmlns="MarkLight">
+  <Region Alignment="Top">
+    <Region Width="10%" Alignment="Left" Margin="15%,0,0,0">
+      <Button Text="Previous" IsDisabled="{!=CanPrevious}" Click="Previous" />
+    </Region>
+    <Region Width="10%" Alignment="Right" Margin="0,0,15%,0">
+      <Button Text="Next" IsDisabled="{!=CanNext}" Click="Next" />
+    </Region>
+  </Region>
+  <Region Height="15%" Alignment="Bottom">
+    <Group Orientation="Vertical" Spacing="1.25px" Alignment="Bottom">
+      <Label Text="{=Message}" TextAlignment="Center" FontColor="White" />
+      <Group Orientation="Horizontal" Spacing="10%" Alignment="Bottom" Margin="0,0,0,5px" BackgroundColor="#55000000">
+        <Button Text="Play" IsDisabled="{=!CanPlay}" Click="Play" />
+        <Button Text="Create" Click="CreateCharacter" IsDisabled="{!=CanCreate}" />
+        <Button Text="Delete" IsDisabled="{!=CanDelete}" />
+        <Button Text="Back" Click="Back" />
+      </Group>
+    </Group>
+  </Region>
+</CharacterSelectionView>

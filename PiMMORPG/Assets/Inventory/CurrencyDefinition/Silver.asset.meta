@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 31e7eaad8d3697341bcccd8909695777
+labels:
+- CurrencyDefinition
+timeCreated: 1507310945
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: inventory/currencies/silver
+  assetBundleVariant: 

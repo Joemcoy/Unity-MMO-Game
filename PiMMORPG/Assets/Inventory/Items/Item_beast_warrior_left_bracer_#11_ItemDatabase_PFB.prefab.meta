@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: ca3d5f84c7dfb3c49a6d00c03ce39336
+labels:
+- InventoryProPrefab
+timeCreated: 1508505991
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: inventory/items/beast_warrior_left_bracer
+  assetBundleVariant: 

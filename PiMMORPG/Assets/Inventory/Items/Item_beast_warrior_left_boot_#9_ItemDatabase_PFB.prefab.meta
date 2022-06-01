@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: dc7c283d532b1924297d3cd08940b29b
+labels:
+- InventoryProPrefab
+timeCreated: 1508505764
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: inventory/items/beast_warrior_left_boot
+  assetBundleVariant: 

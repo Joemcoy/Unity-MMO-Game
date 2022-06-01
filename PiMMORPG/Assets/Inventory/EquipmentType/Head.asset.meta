@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: b649003306b4aa7409d3b50be66c70fd
+labels:
+- EquipmentType
+timeCreated: 1507943226
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: inventory/equiptypes/head
+  assetBundleVariant: 

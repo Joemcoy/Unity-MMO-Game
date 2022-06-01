@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 9b681391b3242564caf398d57a848855
+labels:
+- StatDefinition
+timeCreated: 1512093867
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: inventory/stats/shield
+  assetBundleVariant: 

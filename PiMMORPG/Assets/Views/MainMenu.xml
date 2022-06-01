@@ -1,0 +1,17 @@
+﻿<MainMenu>
+  <ScalerUserInterface UIScaleMode="ScaleWithScreenSize"><!-- ReferenceResolution="{=width},{=height}">-->
+    <ViewSwitcher Id="MainSwitcher" TransitionIn="FadeIn">      
+      <MenuView />
+      <LoginView />
+      <ChannelsView />
+      <AboutView />
+      <SettingsView />
+      <CharacterSelectionView />
+      <CreateCharacterView />
+    </ViewSwitcher>
+  </ScalerUserInterface>
+  <EventSystem />
+  <ViewAnimation Id="FadeIn">
+    <Animate Field="Alpha" From="0" To="1" Duration="0.2s" EasingFunction="QuadraticEaseIn" />
+  </ViewAnimation>
+</MainMenu>

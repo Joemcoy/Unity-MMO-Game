@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: c3291b0ecf940ec4ebb40781d901356e
+labels:
+- EquipmentType
+timeCreated: 1507943619
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: inventory/equiptypes/left_arm
+  assetBundleVariant: 

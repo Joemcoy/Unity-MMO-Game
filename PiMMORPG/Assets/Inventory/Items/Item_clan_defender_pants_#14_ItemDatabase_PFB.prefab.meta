@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 446ae2c3475f60b478770d7c957d2be1
+labels:
+- InventoryProPrefab
+timeCreated: 1508507785
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: inventory/items/clan_defender_pants
+  assetBundleVariant: 

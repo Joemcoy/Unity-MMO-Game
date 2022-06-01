@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: ca9a0588e35053f488e8fbe921a7248f
+labels:
+- InventoryProPrefab
+timeCreated: 1508338074
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: inventory/items/beast_warrior_chest
+  assetBundleVariant: 

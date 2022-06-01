@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 7e4e21781e171e344a3e5959f9c158ef
+labels:
+- EquipmentType
+timeCreated: 1512146019
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: inventory/equiptypes/any_hand
+  assetBundleVariant: 

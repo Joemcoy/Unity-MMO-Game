@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: cfb51f60cb4c8c14aa066b8ccf1302d0
+labels:
+- EquipmentType
+timeCreated: 1511882815
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: inventory/equiptypes/right_hand
+  assetBundleVariant: 

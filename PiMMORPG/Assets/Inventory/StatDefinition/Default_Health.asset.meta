@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 0b3ed55ee6a4cf44cba81d11a415cbd3
+labels:
+- StatDefinition
+timeCreated: 1512093851
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: inventory/stats/health
+  assetBundleVariant: 

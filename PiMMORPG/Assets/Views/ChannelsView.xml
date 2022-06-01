@@ -1,0 +1,28 @@
+﻿<ChannelsView Status="Selecione um dos canais abaixo...">
+  <Region Style="Container" Height="400px" Width="600px" Alignment="Center">
+    <Group Orientation="Vertical" Spacing="15px">
+      <Label Text="{=Status}" TextAlignment="Center" FontColor="White" />
+      <DataGrid Items="{Channels}" Width="80%" Height="40%"  IsScrollable="True" ListHeight="100" ItemSelected="Selected" ItemDeselected="DSelected">
+        <RowHeader>
+          <ColumnHeader Width="70px" Text="ID" />
+          <ColumnHeader Width="120px" Text="Name" />
+          <ColumnHeader Width="100px" Text="Type" />
+          <ColumnHeader Width="120px" Text="Population" />
+          <ColumnHeader Width="70px" Text="Type" />
+        </RowHeader>
+        <Row IsTemplate="true">
+          <Column Text="{#Item.ID}" />
+          <Column Text="{#Item.Name}" />
+          <Column Text="$ChannelType({#Item})" />
+          <Column Text="$ChannelPopl({#Item})" />
+          <Column Text="$IsPVP({#Item})" />
+        </Row>
+      </DataGrid>
+
+      <Group Orientation="Horizontal" Spacing="15px">
+        <Button Text="Connect" Click="Connect" IsDisabled="{!=CanConnect}" />
+        <Button Text="Back" Click="SwitchToMenu" />
+      </Group>
+    </Group>
+  </Region>
+</ChannelsView>

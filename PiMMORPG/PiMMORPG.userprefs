@@ -1,0 +1,31 @@
+﻿<Properties StartupItem="PiMMORPG.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Local\Locomotion\KeyboardLocomotor.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Local\SingletonRegisterer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Local\Bundles\BundleLoader.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Local\Bundles\ClientVerifier.cs" Line="1" Column="1" />
+      <File FileName="Assets\External Data\Windows\tFramework.Data\Bases\SerializerElement.cs" Line="1" Column="1" />
+      <File FileName="Assets\External Data\Windows\tFramework.Data\Bases\SerializerBase.cs" Line="1" Column="1" />
+      <File FileName="Assets\External Data\Windows\tFramework.Data\Serializer\XMLSerializer.cs" Line="1" Column="1" />
+      <File FileName="Assets\External Data\Windows\tFramework.Data\Serializer\XMLPropertySerializer.cs" Line="1" Column="1" />
+      <File FileName="Assets\External Data\Windows\tFramework.Data\Bases\SerializerAttribute.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Local\Helper\SceneHelper.cs" Line="1" Column="1" />
+      <File FileName="Assets\Views\MainMenu.xml" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Local\UI\LoadingScreen.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Network\Requests\GameClient\SyncCharacterRequest.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Network\Responses\GameClient\SyncCharacterResponse.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Local\Control\WorldControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Local\Locomotion\KeyboardLocomotor.cs" Line="89" Column="10" />
+      <File FileName="Assets\External Data\Windows\PiMMORPG\Models\Position.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Network\Responses\GameClient\SpawnCharacterResponse.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Network\Responses\GameClient\SendCharacterResponse.cs" Line="1" Column="1" />
+      <File FileName="Assets\External Data\Windows\tFramework.Network\APacketWrapper.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

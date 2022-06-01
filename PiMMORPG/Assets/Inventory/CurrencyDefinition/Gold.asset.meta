@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: d5876db148afd394da37598008081328
+labels:
+- CurrencyDefinition
+timeCreated: 1507310946
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: inventory/currencies/gold
+  assetBundleVariant: 

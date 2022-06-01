@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: ef6e97c4cc6b3e546bd248dadf6a9589
+labels:
+- ItemCategory
+timeCreated: 1512144022
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: inventory/categories/two-handed_sword
+  assetBundleVariant: 

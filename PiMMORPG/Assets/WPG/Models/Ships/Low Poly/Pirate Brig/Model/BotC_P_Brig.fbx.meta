@@ -1,0 +1,506 @@
+fileFormatVersion: 2
+guid: abc0bcbbb1498fc45816cc547d0ee35d
+timeCreated: 1470965726
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Animate
+    100002: //RootNode
+    100004: Bow Spit
+    100006: Bow Spit Sail
+    100008: Bow Spit Yard
+    100010: Cannons
+    100012: Cannons.001
+    100014: Cathead.002
+    100016: Fore Main Sail
+    100018: Fore Main Yard
+    100020: Fore Mast
+    100022: Fore Royal Sail
+    100024: Fore Royal Yard
+    100026: Fore Top Galant Sail
+    100028: Fore Top Galant Yard
+    100030: Gaff Upper Yard
+    100032: Hull
+    100034: Hull Buoyancy Mesh
+    100036: Jib 1 Standing Rigging
+    100038: Jib 2 Sail
+    100040: Jib 2 Standing Rigging
+    100042: Jib Sail 1
+    100044: Loose Standing Rigging
+    100046: Lower Gaff Yard
+    100048: Main Main Sail
+    100050: Main Main Yard
+    100052: Main Mast
+    100054: Main Royal Sail
+    100056: Main Royal Yard
+    100058: Main Top Galant Sail
+    100060: Main Top Galant Yard
+    100062: Masts, Yards and Sails
+    100064: Pivot Bow Spit Yard
+    100066: Pivot Fore Main Yard
+    100068: Pivot Fore Royal Yard
+    100070: Pivot Fore Top Galant Yard
+    100072: Pivot Main Lower Gaff Yard
+    100074: Pivot Main Main Yard
+    100076: Pivot Main Royal Yard
+    100078: Pivot Main Top Galant Yard
+    100080: Pivot Main Upper Gaff Yard
+    100082: Standing Rigging
+    100084: Standing Rigging.001
+    100086: Standing Rigging.002
+    100088: Standing Rigging.003
+    100090: Standing Rigging.004
+    100092: Standing Rigging.005
+    100094: Standing Rigging.006
+    100096: Standing Rigging.007
+    100098: Wheel
+    100100: Animate.001
+    100102: Bow Details
+    100104: C_loc_.002
+    100106: C_loc_.003
+    100108: C_loc_.004
+    100110: C_loc_.005
+    100112: C_loc_.006
+    100114: C_loc_.007
+    100116: C_loc_.008
+    100118: C_loc_.009
+    100120: C_loc_.010
+    100122: C_loc_.011
+    100124: C_loc_.012
+    100126: C_loc_.013
+    100128: C_loc_.014
+    100130: C_loc_.015
+    100132: C_loc_.016
+    100134: C_loc_.017
+    100136: C_loc_.018
+    100138: C_loc_.019
+    100140: C_loc_.020
+    100142: C_loc_.021
+    100144: C_loc_.022
+    100146: C_loc_.023
+    100148: C_loc_.024
+    100150: C_loc_.025
+    100152: Cannon Deck
+    100154: Cannon Upper Deck
+    100156: Cube
+    100158: Cube.001
+    100160: Cube.002
+    100162: Furled Bow Spit Sail
+    100164: Furled Fore Main Sail
+    100166: Furled Fore Royal Sail
+    100168: Furled Fore Top Gallant Sail
+    100170: Furled Main Royal Sail
+    100172: Furled Main Sail
+    100174: Furled Main Top Gallant Sail
+    100176: Hull Parts
+    100178: Masts & Rigging
+    400000: Animate
+    400002: //RootNode
+    400004: Bow Spit
+    400006: Bow Spit Sail
+    400008: Bow Spit Yard
+    400010: Cannons
+    400012: Cannons.001
+    400014: Cathead.002
+    400016: Fore Main Sail
+    400018: Fore Main Yard
+    400020: Fore Mast
+    400022: Fore Royal Sail
+    400024: Fore Royal Yard
+    400026: Fore Top Galant Sail
+    400028: Fore Top Galant Yard
+    400030: Gaff Upper Yard
+    400032: Hull
+    400034: Hull Buoyancy Mesh
+    400036: Jib 1 Standing Rigging
+    400038: Jib 2 Sail
+    400040: Jib 2 Standing Rigging
+    400042: Jib Sail 1
+    400044: Loose Standing Rigging
+    400046: Lower Gaff Yard
+    400048: Main Main Sail
+    400050: Main Main Yard
+    400052: Main Mast
+    400054: Main Royal Sail
+    400056: Main Royal Yard
+    400058: Main Top Galant Sail
+    400060: Main Top Galant Yard
+    400062: Masts, Yards and Sails
+    400064: Pivot Bow Spit Yard
+    400066: Pivot Fore Main Yard
+    400068: Pivot Fore Royal Yard
+    400070: Pivot Fore Top Galant Yard
+    400072: Pivot Main Lower Gaff Yard
+    400074: Pivot Main Main Yard
+    400076: Pivot Main Royal Yard
+    400078: Pivot Main Top Galant Yard
+    400080: Pivot Main Upper Gaff Yard
+    400082: Standing Rigging
+    400084: Standing Rigging.001
+    400086: Standing Rigging.002
+    400088: Standing Rigging.003
+    400090: Standing Rigging.004
+    400092: Standing Rigging.005
+    400094: Standing Rigging.006
+    400096: Standing Rigging.007
+    400098: Wheel
+    400100: Animate.001
+    400102: Bow Details
+    400104: C_loc_.002
+    400106: C_loc_.003
+    400108: C_loc_.004
+    400110: C_loc_.005
+    400112: C_loc_.006
+    400114: C_loc_.007
+    400116: C_loc_.008
+    400118: C_loc_.009
+    400120: C_loc_.010
+    400122: C_loc_.011
+    400124: C_loc_.012
+    400126: C_loc_.013
+    400128: C_loc_.014
+    400130: C_loc_.015
+    400132: C_loc_.016
+    400134: C_loc_.017
+    400136: C_loc_.018
+    400138: C_loc_.019
+    400140: C_loc_.020
+    400142: C_loc_.021
+    400144: C_loc_.022
+    400146: C_loc_.023
+    400148: C_loc_.024
+    400150: C_loc_.025
+    400152: Cannon Deck
+    400154: Cannon Upper Deck
+    400156: Cube
+    400158: Cube.001
+    400160: Cube.002
+    400162: Furled Bow Spit Sail
+    400164: Furled Fore Main Sail
+    400166: Furled Fore Royal Sail
+    400168: Furled Fore Top Gallant Sail
+    400170: Furled Main Royal Sail
+    400172: Furled Main Sail
+    400174: Furled Main Top Gallant Sail
+    400176: Hull Parts
+    400178: Masts & Rigging
+    2300000: Bow Spit
+    2300002: Bow Spit Sail
+    2300004: Bow Spit Yard
+    2300006: Cannons.001
+    2300008: Cathead.002
+    2300010: Fore Main Sail
+    2300012: Fore Main Yard
+    2300014: Fore Mast
+    2300016: Fore Royal Sail
+    2300018: Fore Royal Yard
+    2300020: Fore Top Galant Sail
+    2300022: Fore Top Galant Yard
+    2300024: Gaff Upper Yard
+    2300026: Hull
+    2300028: Hull Buoyancy Mesh
+    2300030: Jib 1 Standing Rigging
+    2300032: Jib 2 Sail
+    2300034: Jib 2 Standing Rigging
+    2300036: Jib Sail 1
+    2300038: Lower Gaff Yard
+    2300040: Main Main Sail
+    2300042: Main Main Yard
+    2300044: Main Mast
+    2300046: Main Royal Sail
+    2300048: Main Royal Yard
+    2300050: Main Top Galant Sail
+    2300052: Main Top Galant Yard
+    2300054: Pivot Bow Spit Yard
+    2300056: Pivot Fore Main Yard
+    2300058: Pivot Fore Royal Yard
+    2300060: Pivot Fore Top Galant Yard
+    2300062: Pivot Main Lower Gaff Yard
+    2300064: Pivot Main Main Yard
+    2300066: Pivot Main Royal Yard
+    2300068: Pivot Main Top Galant Yard
+    2300070: Pivot Main Upper Gaff Yard
+    2300072: Standing Rigging
+    2300074: Standing Rigging.001
+    2300076: Standing Rigging.002
+    2300078: Standing Rigging.003
+    2300080: Standing Rigging.004
+    2300082: Standing Rigging.005
+    2300084: Standing Rigging.006
+    2300086: Standing Rigging.007
+    2300088: Wheel
+    2300090: Animate.001
+    2300092: Bow Details
+    2300094: C_loc_.002
+    2300096: C_loc_.003
+    2300098: C_loc_.004
+    2300100: C_loc_.005
+    2300102: C_loc_.006
+    2300104: C_loc_.007
+    2300106: C_loc_.008
+    2300108: C_loc_.009
+    2300110: C_loc_.010
+    2300112: C_loc_.011
+    2300114: C_loc_.012
+    2300116: C_loc_.013
+    2300118: C_loc_.014
+    2300120: C_loc_.015
+    2300122: C_loc_.016
+    2300124: C_loc_.017
+    2300126: C_loc_.018
+    2300128: C_loc_.019
+    2300130: C_loc_.020
+    2300132: C_loc_.021
+    2300134: C_loc_.022
+    2300136: C_loc_.023
+    2300138: C_loc_.024
+    2300140: C_loc_.025
+    2300142: Cannon Deck
+    2300144: Cannon Upper Deck
+    2300146: Cube
+    2300148: Cube.001
+    2300150: Cube.002
+    2300152: Furled Bow Spit Sail
+    2300154: Furled Fore Main Sail
+    2300156: Furled Fore Royal Sail
+    2300158: Furled Fore Top Gallant Sail
+    2300160: Furled Main Royal Sail
+    2300162: Furled Main Sail
+    2300164: Furled Main Top Gallant Sail
+    2300166: Hull Parts
+    2300168: Masts & Rigging
+    3300000: Bow Spit
+    3300002: Bow Spit Sail
+    3300004: Bow Spit Yard
+    3300006: Cannons.001
+    3300008: Cathead.002
+    3300010: Fore Main Sail
+    3300012: Fore Main Yard
+    3300014: Fore Mast
+    3300016: Fore Royal Sail
+    3300018: Fore Royal Yard
+    3300020: Fore Top Galant Sail
+    3300022: Fore Top Galant Yard
+    3300024: Gaff Upper Yard
+    3300026: Hull
+    3300028: Hull Buoyancy Mesh
+    3300030: Jib 1 Standing Rigging
+    3300032: Jib 2 Sail
+    3300034: Jib 2 Standing Rigging
+    3300036: Jib Sail 1
+    3300038: Lower Gaff Yard
+    3300040: Main Main Sail
+    3300042: Main Main Yard
+    3300044: Main Mast
+    3300046: Main Royal Sail
+    3300048: Main Royal Yard
+    3300050: Main Top Galant Sail
+    3300052: Main Top Galant Yard
+    3300054: Pivot Bow Spit Yard
+    3300056: Pivot Fore Main Yard
+    3300058: Pivot Fore Royal Yard
+    3300060: Pivot Fore Top Galant Yard
+    3300062: Pivot Main Lower Gaff Yard
+    3300064: Pivot Main Main Yard
+    3300066: Pivot Main Royal Yard
+    3300068: Pivot Main Top Galant Yard
+    3300070: Pivot Main Upper Gaff Yard
+    3300072: Standing Rigging
+    3300074: Standing Rigging.001
+    3300076: Standing Rigging.002
+    3300078: Standing Rigging.003
+    3300080: Standing Rigging.004
+    3300082: Standing Rigging.005
+    3300084: Standing Rigging.006
+    3300086: Standing Rigging.007
+    3300088: Wheel
+    3300090: Animate.001
+    3300092: Bow Details
+    3300094: C_loc_.002
+    3300096: C_loc_.003
+    3300098: C_loc_.004
+    3300100: C_loc_.005
+    3300102: C_loc_.006
+    3300104: C_loc_.007
+    3300106: C_loc_.008
+    3300108: C_loc_.009
+    3300110: C_loc_.010
+    3300112: C_loc_.011
+    3300114: C_loc_.012
+    3300116: C_loc_.013
+    3300118: C_loc_.014
+    3300120: C_loc_.015
+    3300122: C_loc_.016
+    3300124: C_loc_.017
+    3300126: C_loc_.018
+    3300128: C_loc_.019
+    3300130: C_loc_.020
+    3300132: C_loc_.021
+    3300134: C_loc_.022
+    3300136: C_loc_.023
+    3300138: C_loc_.024
+    3300140: C_loc_.025
+    3300142: Cannon Deck
+    3300144: Cannon Upper Deck
+    3300146: Cube
+    3300148: Cube.001
+    3300150: Cube.002
+    3300152: Furled Bow Spit Sail
+    3300154: Furled Fore Main Sail
+    3300156: Furled Fore Royal Sail
+    3300158: Furled Fore Top Gallant Sail
+    3300160: Furled Main Royal Sail
+    3300162: Furled Main Sail
+    3300164: Furled Main Top Gallant Sail
+    3300166: Hull Parts
+    3300168: Masts & Rigging
+    4300000: Standing Rigging.003
+    4300002: Standing Rigging.004
+    4300004: Standing Rigging.002
+    4300006: Standing Rigging.001
+    4300008: Standing Rigging
+    4300010: Standing Rigging.007
+    4300012: Standing Rigging.006
+    4300014: Standing Rigging.005
+    4300016: Fore Mast
+    4300018: Pivot Fore Main Yard
+    4300020: Fore Main Yard
+    4300022: Fore Main Sail
+    4300024: Pivot Fore Top Galant Yard
+    4300026: Fore Top Galant Yard
+    4300028: Fore Top Galant Sail
+    4300030: Pivot Fore Royal Yard
+    4300032: Fore Royal Yard
+    4300034: Fore Royal Sail
+    4300036: Jib 2 Standing Rigging
+    4300038: Jib 2 Sail
+    4300040: Jib 1 Standing Rigging
+    4300042: Jib Sail 1
+    4300044: Main Mast
+    4300046: Pivot Main Main Yard
+    4300048: Main Main Yard
+    4300050: Main Main Sail
+    4300052: Pivot Main Lower Gaff Yard
+    4300054: Lower Gaff Yard
+    4300056: Pivot Main Upper Gaff Yard
+    4300058: Gaff Upper Yard
+    4300060: Cathead.002
+    4300062: Pivot Main Top Galant Yard
+    4300064: Main Top Galant Yard
+    4300066: Main Top Galant Sail
+    4300068: Pivot Main Royal Yard
+    4300070: Main Royal Yard
+    4300072: Main Royal Sail
+    4300074: Bow Spit
+    4300076: Pivot Bow Spit Yard
+    4300078: Bow Spit Yard
+    4300080: Bow Spit Sail
+    4300082: Cannons.001
+    4300084: Wheel
+    4300086: Hull
+    4300088: Hull Buoyancy Mesh
+    4300090: Masts & Rigging
+    4300092: Animate.001
+    4300094: Hull Parts
+    4300096: Bow Details
+    4300098: Cannon Upper Deck
+    4300100: C_loc_.024
+    4300102: C_loc_.023
+    4300104: C_loc_.022
+    4300106: C_loc_.021
+    4300108: C_loc_.020
+    4300110: C_loc_.019
+    4300112: C_loc_.018
+    4300114: C_loc_.017
+    4300116: Cannon Deck
+    4300118: C_loc_.002
+    4300120: C_loc_.016
+    4300122: C_loc_.015
+    4300124: C_loc_.014
+    4300126: C_loc_.013
+    4300128: C_loc_.012
+    4300130: C_loc_.011
+    4300132: C_loc_.010
+    4300134: C_loc_.009
+    4300136: C_loc_.008
+    4300138: C_loc_.007
+    4300140: C_loc_.006
+    4300142: C_loc_.005
+    4300144: C_loc_.004
+    4300146: C_loc_.003
+    4300148: C_loc_.025
+    4300150: Furled Fore Main Sail
+    4300152: Furled Fore Top Gallant Sail
+    4300154: Furled Fore Royal Sail
+    4300156: Cube.002
+    4300158: Cube.001
+    4300160: Furled Main Sail
+    4300162: Cube
+    4300164: Furled Main Top Gallant Sail
+    4300166: Furled Main Royal Sail
+    4300168: Furled Bow Spit Sail
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

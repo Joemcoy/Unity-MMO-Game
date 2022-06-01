@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 51e9b5d18ec841547a99512eb10bc760
+labels:
+- ItemCategory
+timeCreated: 1512142204
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: inventory/categories/bow
+  assetBundleVariant: 

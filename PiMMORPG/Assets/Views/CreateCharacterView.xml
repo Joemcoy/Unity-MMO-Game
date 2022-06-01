@@ -1,0 +1,630 @@
+﻿<CreateCharacterView xmlns="MarkLight" Activated="Show"  Deactivated="Hide">
+  <Region Width="40%" Height="100%" BackgroundColor="#33000000" Alignment="Left" Margin="15,0,0,0">
+    <Group Alignment="Center" Orientation="Vertical" Spacing="5px" Margin="15,0,15,0">
+      <Label Text="{Message}" TextAlignment="Top" Alignment="Top" Height="50px" />
+      <ViewSwitcher Height="600px" Id="CreationSwitcher" TransitionIn="FadeIn">
+        <Group Orientation="Vertical" Spacing="15px">
+          <Group Orientation="Horizontal">
+            <Label Text="Name" Width="50px" />
+            <InputField Id="txtName" Width="150px" ValueChanged="NameChanged" />
+          </Group>
+          <Group Orientation="Horizontal">
+            <Label Text="Gender" Width="150px" />
+            <RadioButton IsChecked="{Gender}" Text="Female" />
+            <RadioButton IsChecked="{!Gender}" Text="Male" />
+          </Group>
+          <Button Text="Next" Click="Hair" Width="250px" />
+          <Button Text="Back" Click="Back" IsDisabled="{!=CanBack}" Width="250px"/>
+        </Group>
+        <Group Orientation="Vertical" Spacing="15px">
+          <DataGrid Id="DataGrid" Width="250px" Items="{=Hairs}" ItemSelected="HairChanged" IsScrollable="True" ListHeight="200">
+            <RowHeader>
+              <ColumnHeader Width="*" Text="Hair" />
+            </RowHeader>
+
+            <Row IsTemplate="true">
+              <Column Text="Hair {=#Item}" />
+            </Row>
+          </DataGrid>
+          <ComboBox Width="250px" Items="{HMaterials}" ComboBoxList.ItemSelected="HMChanged" IsScrollable ="true" IsDropUp="true">
+            <ComboBoxItem IsTemplate="true" Text="{#Item}" />
+          </ComboBox>
+          <Button Text="Next" Click="Advanced" Width="150px" />
+          <Button Text="Previous" Click="General" IsDisabled="{!=CanBack}" Width="150px"/>
+        </Group>
+        <Group Orientation="Vertical" Spacing="15px" Alignment="Center">
+          <Group Orientation="Horizontal" Spacing="5px" Alignment="Top">
+            <Button Text="Previous" Width="105px" IsDisabled="{!=MorphPrevious}" Click="PreviousMorph" />
+            <Label Text="{MorphName}" Width="100px" TextAlignment="Center" FontStyle="Bold" FontSize="15" />
+            <Button Text="Next" Width="105px"  IsDisabled="{!=MorphNext}" Click="NextMorph" />
+          </Group>
+          <ViewSwitcher Height="200px" Id="MorphSwitcher" BackgroundColor="#33330000">
+            <Panel Id="Head" DecelerationRate="0" HasInertia="false" MovementType="Clamped">
+              <Group Orientation="Vertical" Spacing="10px">
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMCraniumSlope}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMCraniumSlope" Min="-100" Max="100" Value="{Helper.Current.PHMCraniumSlope.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMEarlobesAttached}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMEarlobesAttached" Min="0" Max="100" Value="{Helper.Current.PHMEarlobesAttached.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMEarsDepth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMEarsDepth" Min="-100" Max="100" Value="{Helper.Current.PHMEarsDepth.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMEarsElf}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMEarsElf" Min="0" Max="100" Value="{Helper.Current.PHMEarsElf.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMEarsHeight}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMEarsHeight" Min="-100" Max="100" Value="{Helper.Current.PHMEarsHeight.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLJawOut_In}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLJawOut_In" Min="-100" Max="100" Value="{Helper.Current.eCTRLJawOut_In.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLLipBottomIn_Out}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLLipBottomIn_Out" Min="-50" Max="50" Value="{Helper.Current.eCTRLLipBottomIn_Out.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLLipBottomIn_OutL}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLLipBottomIn_OutL" Min="-50" Max="50" Value="{Helper.Current.eCTRLLipBottomIn_OutL.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLLipBottomIn_OutR}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLLipBottomIn_OutR" Min="-50" Max="50" Value="{Helper.Current.eCTRLLipBottomIn_OutR.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLLipBottomUp_Down}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLLipBottomUp_Down" Min="0" Max="50" Value="{Helper.Current.eCTRLLipBottomUp_Down.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLLipBottomUp_DownL}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLLipBottomUp_DownL" Min="-40" Max="50" Value="{Helper.Current.eCTRLLipBottomUp_DownL.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLLipBottomUp_DownR}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLLipBottomUp_DownR" Min="-50" Max="50" Value="{Helper.Current.eCTRLLipBottomUp_DownR.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMJawCurve}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMJawCurve" Min="-100" Max="100" Value="{Helper.Current.PHMJawCurve.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMJawHeight}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMJawHeight" Min="-100" Max="100" Value="{Helper.Current.PHMJawHeight.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMJawlineDepth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMJawlineDepth" Min="-100" Max="100" Value="{Helper.Current.PHMJawlineDepth.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.G2M_PHMlHornFrontHigh}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="G2M_PHMlHornFrontHigh" Min="0" Max="100" Value="{Helper.Current.G2M_PHMlHornFrontHigh.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.G2M_PHMlHornFrontLarge}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="G2M_PHMlHornFrontLarge" Min="0" Max="100" Value="{Helper.Current.G2M_PHMlHornFrontLarge.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.G2M_PHMlHornFrontSmall}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="G2M_PHMlHornFrontSmall" Min="0" Max="100" Value="{Helper.Current.G2M_PHMlHornFrontSmall.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.G2M_PHMlHornSide}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="G2M_PHMlHornSide" Min="0" Max="100" Value="{Helper.Current.G2M_PHMlHornSide.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.G2M_PHMrHornFrontHigh}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="G2M_PHMrHornFrontHigh" Min="0" Max="100" Value="{Helper.Current.G2M_PHMrHornFrontHigh.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.G2M_PHMrHornFrontLarge}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="G2M_PHMrHornFrontLarge" Min="0" Max="100" Value="{Helper.Current.G2M_PHMrHornFrontLarge.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.G2M_PHMrHornFrontSmall}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="G2M_PHMrHornFrontSmall" Min="0" Max="100" Value="{Helper.Current.G2M_PHMrHornFrontSmall.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.G2M_PHMrHornSide}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="G2M_PHMrHornSide" Min="0" Max="100" Value="{Helper.Current.G2M_PHMrHornSide.Value}" />
+                </Group>
+              </Group>
+            </Panel>
+            <Panel Id="Eyes" DecelerationRate="0" HasInertia="false" MovementType="Clamped">
+              <Group Orientation="Vertical" Spacing="20px">
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMEyelashesLength}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMEyelashesLength" Min="0" Max="100" Value="{Helper.Current.PHMEyelashesLength.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.Eyelid_Size}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="Eyelid_Size" Min="0" Max="100" Value="{Helper.Current.Eyelid_Size.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMEyelidsFoldDown}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMEyelidsFoldDown" Min="0" Max="50" Value="{Helper.Current.PHMEyelidsFoldDown.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMEyesAlmondInner}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMEyesAlmondInner" Min="0" Max="100" Value="{Helper.Current.PHMEyesAlmondInner.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMEyesAlmondOuter}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMEyesAlmondOuter" Min="0" Max="100" Value="{Helper.Current.PHMEyesAlmondOuter.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMEyesAngledInner}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMEyesAngledInner" Min="-50" Max="50" Value="{Helper.Current.PHMEyesAngledInner.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMEyesAngledOuter}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMEyesAngledOuter" Min="-50" Max="50" Value="{Helper.Current.PHMEyesAngledOuter.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMEyesHeight}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMEyesHeight" Min="-100" Max="100" Value="{Helper.Current.PHMEyesHeight.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMEyesIrisSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMEyesIrisSize" Min="-50" Max="50" Value="{Helper.Current.PHMEyesIrisSize.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMEyesSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMEyesSize" Min="-50" Max="25" Value="{Helper.Current.PHMEyesSize.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMEyesWidth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMEyesWidth" Min="-50" Max="50" Value="{Helper.Current.PHMEyesWidth.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLEyelidsLowerUpDown}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLEyelidsLowerUpDown" Min="0" Max="100" Value="{Helper.Current.eCTRLEyelidsLowerUpDown.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLEyelidsLowerUpDownL}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLEyelidsLowerUpDownL" Min="-100" Max="100" Value="{Helper.Current.eCTRLEyelidsLowerUpDownL.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLEyelidsLowerUpDownR}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLEyelidsLowerUpDownR" Min="-100" Max="100" Value="{Helper.Current.eCTRLEyelidsLowerUpDownR.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLEyelidsUpperDownUp}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLEyelidsUpperDownUp" Min="0" Max="25" Value="{Helper.Current.eCTRLEyelidsUpperDownUp.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLEyelidsUpperDownUpL}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLEyelidsUpperDownUpL" Min="0" Max="25" Value="{Helper.Current.eCTRLEyelidsUpperDownUpL.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLEyelidsUpperDownUpR}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLEyelidsUpperDownUpR" Min="0" Max="25" Value="{Helper.Current.eCTRLEyelidsUpperDownUpR.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLEyesSquint}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLEyesSquint" Min="0" Max="100" Value="{Helper.Current.eCTRLEyesSquint.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLEyesSquintL}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLEyesSquintL" Min="0" Max="100" Value="{Helper.Current.eCTRLEyesSquintL.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLEyesSquintR}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLEyesSquintR" Min="0" Max="100" Value="{Helper.Current.eCTRLEyesSquintR.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.Eye_Sag_Top}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="Eye_Sag_Top" Min="0" Max="100" Value="{Helper.Current.Eye_Sag_Top.Value}" />
+                </Group>
+              </Group>
+            </Panel>
+            <Panel Id="Face" DecelerationRate="0" HasInertia="false" MovementType="Clamped">
+              <Group Orientation="Vertical" Spacing="20px">
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMFaceCenterDepth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMFaceCenterDepth" Min="0" Max="50" Value="{Helper.Current.PHMFaceCenterDepth.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMFaceFlat}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMFaceFlat" Min="-50" Max="100" Value="{Helper.Current.PHMFaceFlat.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMFaceHeart}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMFaceHeart" Min="-50" Max="100" Value="{Helper.Current.PHMFaceHeart.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMFaceRound}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMFaceRound" Min="-50" Max="100" Value="{Helper.Current.PHMFaceRound.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMFaceSquare}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMFaceSquare" Min="-50" Max="100" Value="{Helper.Current.PHMFaceSquare.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLBrowInnerUp_Down}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLBrowInnerUp_Down" Min="0" Max="100" Value="{Helper.Current.eCTRLBrowInnerUp_Down.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLBrowInnerUp_DownL}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLBrowInnerUp_DownL" Min="-100" Max="100" Value="{Helper.Current.eCTRLBrowInnerUp_DownL.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLBrowInnerUp_DownR}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLBrowInnerUp_DownR" Min="-100" Max="100" Value="{Helper.Current.eCTRLBrowInnerUp_DownR.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLBrowOuterUp_Down}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLBrowOuterUp_Down" Min="0" Max="100" Value="{Helper.Current.eCTRLBrowOuterUp_Down.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLBrowOuterUp_DownL}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLBrowOuterUp_DownL" Min="0" Max="100" Value="{Helper.Current.eCTRLBrowOuterUp_DownL.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLBrowOuterUp_DownR}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLBrowOuterUp_DownR" Min="0" Max="100" Value="{Helper.Current.eCTRLBrowOuterUp_DownR.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLBrowUp_Down}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLBrowUp_Down" Min="0" Max="100" Value="{Helper.Current.eCTRLBrowUp_Down.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLBrowUp_DownL}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLBrowUp_DownL" Min="-100" Max="100" Value="{Helper.Current.eCTRLBrowUp_DownL.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLBrowUp_DownR}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLBrowUp_DownR" Min="-100" Max="100" Value="{Helper.Current.eCTRLBrowUp_DownR.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMCheekbonesDepressionHD}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMCheekbonesDepressionHD" Min="0" Max="100" Value="{Helper.Current.PHMCheekbonesDepressionHD.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMCheeksDepth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMCheeksDepth" Min="0" Max="100" Value="{Helper.Current.PHMCheeksDepth.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMChinCleftHD}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMChinCleftHD" Min="0" Max="100" Value="{Helper.Current.PHMChinCleftHD.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMChinWidth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMChinWidth" Min="0" Max="100" Value="{Helper.Current.PHMChinWidth.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLLipsPart}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLLipsPart" Min="0" Max="100" Value="{Helper.Current.eCTRLLipsPart.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLLipsPartCenter}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLLipsPartCenter" Min="0" Max="100" Value="{Helper.Current.eCTRLLipsPartCenter.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLLipsPucker}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLLipsPucker" Min="0" Max="100" Value="{Helper.Current.eCTRLLipsPucker.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLLipTopUp_Down}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLLipTopUp_Down" Min="0" Max="100" Value="{Helper.Current.eCTRLLipTopUp_Down.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLLipTopUp_DownL}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLLipTopUp_DownL" Min="-100" Max="100" Value="{Helper.Current.eCTRLLipTopUp_DownL.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLLipTopUp_DownR}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLLipTopUp_DownR" Min="-100" Max="100" Value="{Helper.Current.eCTRLLipTopUp_DownR.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLMouthCornerUp_Down}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLMouthCornerUp_Down" Min="0" Max="50" Value="{Helper.Current.eCTRLMouthCornerUp_Down.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLMouthFrown}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLMouthFrown" Min="0" Max="50" Value="{Helper.Current.eCTRLMouthFrown.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLMouthNarrow}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLMouthNarrow" Min="0" Max="75" Value="{Helper.Current.eCTRLMouthNarrow.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLMouthNarrowL}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLMouthNarrowL" Min="-50" Max="50" Value="{Helper.Current.eCTRLMouthNarrowL.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.eCTRLMouthNarrowR}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="eCTRLMouthNarrowR" Min="-50" Max="50" Value="{Helper.Current.eCTRLMouthNarrowR.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMMouthCurves}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMMouthCurves" Min="-100" Max="100" Value="{Helper.Current.PHMMouthCurves.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMMouthHeight}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMMouthHeight" Min="-100" Max="100" Value="{Helper.Current.PHMMouthHeight.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMMouthSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMMouthSize" Min="-50" Max="50" Value="{Helper.Current.PHMMouthSize.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMMouthWidth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMMouthWidth" Min="-100" Max="100" Value="{Helper.Current.PHMMouthWidth.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMLipDepthLower}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMLipDepthLower" Min="0" Max="100" Value="{Helper.Current.PHMLipDepthLower.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMLipsHeart}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMLipsHeart" Min="-100" Max="100" Value="{Helper.Current.PHMLipsHeart.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMLipsSquare}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMLipsSquare" Min="-100" Max="100" Value="{Helper.Current.PHMLipsSquare.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMLipUpperSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMLipUpperSize" Min="-100" Max="100" Value="{Helper.Current.PHMLipUpperSize.Value}" />
+                </Group>
+              </Group>
+            </Panel>
+            <Panel Id="Nose" DecelerationRate="0" HasInertia="false" MovementType="Clamped">
+              <Group Orientation="Vertical" Spacing="20px">
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.Nose_Age}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="Nose_Age" Min="0" Max="100" Value="{Helper.Current.Nose_Age.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMNoseBridgeDepth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMNoseBridgeDepth" Min="-100" Max="100" Value="{Helper.Current.PHMNoseBridgeDepth.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMNoseBridgeHeight}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMNoseBridgeHeight" Min="-100" Max="100" Value="{Helper.Current.PHMNoseBridgeHeight.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMNoseBridgeSkew}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMNoseBridgeSkew" Min="-100" Max="100" Value="{Helper.Current.PHMNoseBridgeSkew.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMNoseBridgeSlope}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMNoseBridgeSlope" Min="-100" Max="100" Value="{Helper.Current.PHMNoseBridgeSlope.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMNoseBump}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMNoseBump" Min="0" Max="100" Value="{Helper.Current.PHMNoseBump.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMNoseDepth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMNoseDepth" Min="0" Max="100" Value="{Helper.Current.PHMNoseDepth.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMNoseHeight}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMNoseHeight" Min="0" Max="100" Value="{Helper.Current.PHMNoseHeight.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMNosePinch}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMNosePinch" Min="0" Max="100" Value="{Helper.Current.PHMNosePinch.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMNoseRidgeWidth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMNoseRidgeWidth" Min="0" Max="100" Value="{Helper.Current.PHMNoseRidgeWidth.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMNoseSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMNoseSize" Min="0" Max="100" Value="{Helper.Current.PHMNoseSize.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMNoseTipHeight}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMNoseTipHeight" Min="0" Max="100" Value="{Helper.Current.PHMNoseTipHeight.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMNoseTipRound}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMNoseTipRound" Min="0" Max="100" Value="{Helper.Current.PHMNoseTipRound.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMNoseWidth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMNoseWidth" Min="0" Max="100" Value="{Helper.Current.PHMNoseWidth.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMNostrilWingSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMNostrilWingSize" Min="0" Max="100" Value="{Helper.Current.PHMNostrilWingSize.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PHMNostrilWingWidth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PHMNostrilWingWidth" Min="0" Max="100" Value="{Helper.Current.PHMNostrilWingWidth.Value}" />
+                </Group>
+              </Group>
+            </Panel>
+            <Panel Id="Body" DecelerationRate="0" HasInertia="false" MovementType="Clamped">
+              <Group Orientation="Vertical" Spacing="20px">
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.Basic_Weight_1}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="Basic_Weight_1" Min="0" Max="100" Value="{Helper.Current.Basic_Weight_1.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.FBMBodybuilderSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="FBMBodybuilderSize" Min="0" Max="100" Value="{Helper.Current.FBMBodybuilderSize.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.FBMBodybuilderDetails}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="FBMBodybuilderDetails" Min="0" Max="100" Value="{Helper.Current.FBMBodybuilderDetails.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.FBMFitnessSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="FBMFitnessSize" Min="0" Max="100" Value="{Helper.Current.FBMFitnessSize.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.FBMFitnessDetails}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="FBMFitnessDetails" Min="0" Max="100" Value="{Helper.Current.FBMFitnessDetails.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.Neck_Weight}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="Neck_Weight" Min="0" Max="100" Value="{Helper.Current.Neck_Weight.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.SCLNeckLength}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="SCLNeckLength" Min="-100" Max="100" Value="{Helper.Current.SCLNeckLength.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PBMNeckSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PBMNeckSize" Min="0" Max="100" Value="{Helper.Current.PBMNeckSize.Value}" />
+                </Group>
+              </Group>
+            </Panel>
+            <Panel Id="Torso" DecelerationRate="0" HasInertia="false" MovementType="Clamped">
+              <Group Orientation="Vertical" Spacing="20px">
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.SCLChestDepth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="SCLChestDepth" Min="-100" Max="100" Value="{Helper.Current.SCLChestDepth.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.SCLChestWidth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="SCLChestWidth" Min="-100" Max="100" Value="{Helper.Current.SCLChestWidth.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.SCLShldrsScale}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="SCLShldrsScale" Min="-50" Max="100" Value="{Helper.Current.SCLShldrsScale.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.SCLShldrsWidth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="SCLShldrsWidth" Min="-50" Max="100" Value="{Helper.Current.SCLShldrsWidth.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.Shoulder_Drop}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="Shoulder_Drop" Min="0" Max="100" Value="{Helper.Current.Shoulder_Drop.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PBMShouldersSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PBMShouldersSize" Min="0" Max="50" Value="{Helper.Current.PBMShouldersSize.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PBMPectoralsCleavage}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PBMPectoralsCleavage" Min="0" Max="100" Value="{Helper.Current.PBMPectoralsCleavage.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PBMPectoralsDiameter}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PBMPectoralsDiameter" Min="0" Max="100" Value="{Helper.Current.PBMPectoralsDiameter.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PBMPectoralsHeavy}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PBMPectoralsHeavy" Min="0" Max="100" Value="{Helper.Current.PBMPectoralsHeavy.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PBMPectoralsSag}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PBMPectoralsSag" Min="0" Max="100" Value="{Helper.Current.PBMPectoralsSag.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PBMRibcageSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PBMRibcageSize" Min="0" Max="100" Value="{Helper.Current.PBMRibcageSize.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PBMSternumDepth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PBMSternumDepth" Min="0" Max="100" Value="{Helper.Current.PBMSternumDepth.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.G2M_PBMBelly}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="G2M_PBMBelly" Min="0" Max="100" Value="{Helper.Current.G2M_PBMBelly.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PBMStomachLowerDepth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PBMStomachLowerDepth" Min="0" Max="100" Value="{Helper.Current.PBMStomachLowerDepth.Value}" />
+                </Group>
+              </Group>
+            </Panel>
+            <Panel Id="Arms" DecelerationRate="0" HasInertia="false" MovementType="Clamped">
+              <Group Orientation="Vertical" Spacing="20px">
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PBMUpperArmsSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PBMUpperArmsSize" Min="0" Max="100" Value="{Helper.Current.PBMUpperArmsSize.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.SCLArmsLength}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="SCLArmsLength" Min="-100" Max="100" Value="{Helper.Current.SCLArmsLength.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.SCLFingersLength}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="SCLFingersLength" Min="-100" Max="100" Value="{Helper.Current.SCLFingersLength.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.SCLFingersLengthL}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="SCLFingersLengthL" Min="-100" Max="100" Value="{Helper.Current.SCLFingersLengthL.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.SCLFingersLengthR}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="SCLFingersLengthR" Min="-100" Max="100" Value="{Helper.Current.SCLFingersLengthR.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.SCLFingersWidth}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="SCLFingersWidth" Min="-100" Max="100" Value="{Helper.Current.SCLFingersWidth.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.SCLFingersWidthL}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="SCLFingersWidthL" Min="-100" Max="100" Value="{Helper.Current.SCLFingersWidthL.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.SCLFingersWidthR}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="SCLFingersWidthR" Min="-100" Max="100" Value="{Helper.Current.SCLFingersWidthR.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PBMForearmsSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PBMForearmsSize" Min="-100" Max="100" Value="{Helper.Current.PBMForearmsSize.Value}" />
+                </Group>
+              </Group>
+            </Panel>
+            <Panel Id="Hands" DecelerationRate="0" HasInertia="false" MovementType="Clamped">
+              <Group Orientation="Vertical" Spacing="20px">
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.SCLPalmScale}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="SCLPalmScale" Min="0" Max="100" Value="{Helper.Current.SCLPalmScale.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.SCLPalmScaleL}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="SCLPalmScaleL" Min="0" Max="100" Value="{Helper.Current.SCLPalmScaleL.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.SCLPalmScaleR}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="SCLPalmScaleR" Min="0" Max="100" Value="{Helper.Current.SCLPalmScaleR.Value}" />
+                </Group>
+              </Group>
+            </Panel>
+            <Panel Id="Legs" DecelerationRate="0" HasInertia="false" MovementType="Clamped">
+              <Group Orientation="Vertical" Spacing="20px">
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PBMThighsSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PBMThighsSize" Min="0" Max="100" Value="{Helper.Current.PBMThighsSize.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PBMCalvesSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PBMCalvesSize" Min="-100" Max="100" Value="{Helper.Current.PBMCalvesSize.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PBMGlutesSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PBMGlutesSize" Min="-100" Max="100" Value="{Helper.Current.PBMGlutesSize.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PBMLegsLength}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PBMLegsLength" Min="-25" Max="25" Value="{Helper.Current.PBMLegsLength.Value}" />
+                </Group>
+                <Group Orientation="Horizontal" Spacing="5px">
+                  <Label Text="{@Localization.PBMShinsSize}" TextAlignment="Left" Width="200px" />
+                  <Slider Width="300px" Id="PBMShinsSize" Min="0" Max="100" Value="{Helper.Current.PBMShinsSize.Value}" />
+                </Group>
+              </Group>
+            </Panel>
+          </ViewSwitcher>
+          <Button Text="Create" Click="Create" IsDisabled="{!=CanCreate}" Width="250px"/>
+          <Button Text="Reset" Click="Reset" IsDisabled="{!=CanBack}" Width="250px"/>
+          <Button Text="Previous" Click="Hair" Width="250px" />
+        </Group>
+      </ViewSwitcher>
+    </Group>
+  </Region>
+</CreateCharacterView>

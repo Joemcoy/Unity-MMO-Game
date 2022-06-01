@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: c6ed224b784b2cc4f93f89fa9f4227f4
+labels:
+- InventoryProPrefab
+timeCreated: 1511882772
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: inventory/items/basic_sword
+  assetBundleVariant: 
